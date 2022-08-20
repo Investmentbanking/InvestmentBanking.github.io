@@ -50,6 +50,7 @@ img {
 
 strong{
     font-weight: var(--fw-bold);
+    display: block;
 }
 
 /* Typogrpahy */
@@ -73,9 +74,6 @@ h3{ font-size: var(--fs-h3) }
     font-weight: var(--fw-reg);
 }
 
-strong {
-    display: block;
-}
 
 /*.section__subtitile--intro strong {
     display: block;
