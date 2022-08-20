@@ -37,7 +37,7 @@
 
 /* General Styles */
 body{
-    background-image: url('https://cdn.dribbble.com/users/32512/screenshots/3363261/the_wave_natural_ai_by_gleb.gif');
+    background-image: url('https://cdn.dribbble.com/users/214929/screenshots/4967879/ai-loader-opt.gif');
     background-size: cover;
     height: 100vh;
     padding:0;
@@ -114,6 +114,10 @@ nav { display: none;}
 
 .intro__img {
     box-shadow: var(--bs);
+}
+
+.section__subtitle--intro {
+    display: inline-block;
 }
 
 @media (min-width: 600px) {
