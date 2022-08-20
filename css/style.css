@@ -35,8 +35,13 @@
 
 /* General Styles */
 body{
-    background: var(--clr-light);
-    color: var(--clr-dark); 
+    background-image: url('https://cdn.dribbble.com/users/32512/screenshots/3363261/the_wave_natural_ai_by_gleb.gif');
+    background-size: cover;
+    height: 100vh;
+    padding:0;
+    margin:0;
+
+    color: var(--clr-light); 
     margin: 0;
     font-family: var(--ff--primary);
     font-size: var(--fs--body);
