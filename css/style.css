@@ -70,23 +70,23 @@ h3{ font-size: var(--fs-h3) }
     margin-bottom: .25em;
 }
 
-.section__subtitile--intro {
+.section__title--intro {
     font-weight: var(--fw-reg);
 }
 
 
-/*.section__subtitile--intro strong {
+/*.section__subtitle--intro strong {
     display: block;
 }*/
 
-.section__subtitile {
+.section__subtitle {
     margin: 0;
     font-size: var(--fs-h3);
 
 }
 
-.section__subtitile--intro,
-.section__subtitile--about {
+.section__subtitle--intro,
+.section__subtitle--about {
     background: var(--clr-accent);
     font-family: var(--ff--secondary);
       
