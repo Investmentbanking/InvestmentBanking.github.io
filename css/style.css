@@ -1,4 +1,45 @@
+*
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+/* Custom properties */ 
+:root {
+    --ff--primary: 'Source Sans Pro', sans-serif;
+    --ff--secondary: 'Source Code Pro', monospace;
+
+    --fw-reg: 300;
+    --fw-bold: 900;
+
+    --clr-light: #fff;
+    --clr-dark: #303030;
+    --clr-accent: #16e0bd;
+    
+    --fs-hl: 3rem;
+    --fs-h2: 2.25rem;
+    --fs--h3: 1.25rem;
+    --fs--body: 1rem;
+}
+
+/* Adjusts the font size depending on width of screen */
+
+@media (min-width: 800px){
+    :root {
+        --fs-h1: 4.5;
+        --fs-h2: 3.75rem;
+        --fs-h3: 1.5rem;
+        --fs-body: 1.125rem;
+    }
+}
+
+/* General Styles */
 body{
+    background: var(--clr-accent);
+}
+
+
+/*body{
     background-image: url('https://www.thisiscolossal.com/wp-content/uploads/2018/08/Isopoly_01.gif');
     background-size: cover;
     
@@ -7,4 +48,5 @@ body{
     height: 100vh;
     padding:0;
     margin:0;
-}
+} */
+
