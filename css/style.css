@@ -73,6 +73,14 @@ h3{ font-size: var(--fs-h3) }
     font-weight: var(--fw-reg);
 }
 
+strong {
+    display: block;
+}
+
+/*.section__subtitile--intro strong {
+    display: block;
+}*/
+
 .section__subtitile {
     margin: 0;
     font-size: var(--fs-h3);
