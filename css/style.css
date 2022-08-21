@@ -141,7 +141,7 @@ nav { display: none;}
 
     .section__subtitle--intro {
         align-self: start;
-        grid-column: -1 / 1;
+        /*grid-column: -1 / 1;*/
         grid-row: 2;
         text-align: right;
         position: relative;
