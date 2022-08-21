@@ -159,16 +159,18 @@ nav { display: none;}
 
 }
 
-/* For the KCL cube image */
+/* For the KCL cube image: https://codeconvey.com/css3-3d-cube-animation-with-image/*/
 .contenedor {
     -webkit-perspective: 500px;
     perspective: 500px;
     perspective-origin: 50% 50%;
+    position: relative;
 }
 
 .cube, .cube .card {
     height: 290px;
     width: 290px;
+    position: relative;
 }
 
 .cube {
@@ -182,6 +184,7 @@ nav { display: none;}
    
     -webkit-animation: giro 20s infinite linear;
     animation: giro 20s infinite linear;
+    position: relative;
 }
 
 .cube .card {
@@ -195,31 +198,37 @@ nav { display: none;}
 .cube .card:nth-child(1) {
     -webkit-transform: translateZ(150px);
     transform: translateZ(150px);
+    position: relative;
   }
   /*card posterior*/
   .cube .card:nth-child(2) {
     -webkit-transform: rotateY(180deg) translateZ(150px);
     transform: rotateY(180deg) translateZ(150px);
+    position: relative;
   }
   /*card izquierda*/
   .cube .card:nth-child(3) {
     -webkit-transform: rotateY(-90deg) translateZ(150px);
     transform: rotateY(-90deg) translateZ(150px);
+    position: relative;
   }
   /*card derecha*/
   .cube .card:nth-child(4) {
     -webkit-transform: rotateY(90deg) translateZ(150px);
     transform: rotateY(90deg) translateZ(150px);
+    position: relative;
   }
   /*card superior*/
   .cube .card:nth-child(5) {
     -webkit-transform: rotateX(90deg) translateZ(150px);
     transform: rotateX(90deg) translateZ(150px);
+    position: relative;
   }
   /*card inferior*/
   .cube .card:nth-child(6) {
     -webkit-transform: rotateX(-90deg) translateZ(150px);
     transform: rotateX(-90deg) translateZ(150px);
+    position: relative;
 }
 
 @-webkit-keyframes giro {
