@@ -159,6 +159,7 @@ nav { display: none;}
 
 }
 
+/* For the KCL cube image */
 .contenedor {
     -webkit-perspective: 500px;
     perspective: 500px;
@@ -219,6 +220,26 @@ nav { display: none;}
   .cube .card:nth-child(6) {
     -webkit-transform: rotateX(-90deg) translateZ(150px);
     transform: rotateX(-90deg) translateZ(150px);
+}
+
+@-webkit-keyframes giro {
+ 
+    100% { -webkit-transform: rotateX(-45deg) rotateY(720deg); }
+}
+ 
+@keyframes giro {
+
+    100% { transform: rotateX(-45deg) rotateY(720deg); }
+}
+ 
+@-webkit-keyframes giro360 {
+
+  100% { -webkit-transform: rotateX(360deg) rotateY(360deg); }
+}
+ 
+@keyframes giro360 {
+   
+  100% { transform: rotateX(360deg) rotateY(360deg); }
 }
 
 /* Pause animation on hover */
