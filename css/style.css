@@ -164,7 +164,6 @@ nav { display: none;}
     -webkit-perspective: 500px;
     perspective: 500px;
     perspective-origin: 50% 50%;
-    position: relative;
 }
 
 .cube, .cube .card {
