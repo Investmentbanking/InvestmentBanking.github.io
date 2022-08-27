@@ -154,6 +154,7 @@ nav { display: none;}
 .my-services {
     background-color: var(--clr-dark);
     background-image: url(../img/purple.gif);
+    background-size: cover;
     color: var(--clr-light);
 
 
