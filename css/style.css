@@ -156,11 +156,33 @@ nav { display: none;}
     background-image: url(../img/purple.gif);
     background-size: cover;
     color: var(--clr-light);
+    text-align: center;
+}
 
+.section__title--services {
+    color: var(--clr-accent);
+    position: relative;
 
 }
 
-/* For the KCL cube image: https://codeconvey.com/css3-3d-cube-animation-with-image/*/
+.section__title--services::after {
+
+    content: '';
+    display: block;
+    width: 3em;
+    height: 1px;
+    margin: 0.5em auto 1em;
+    background: var(--clr-light);
+    opacity: 0.5;
+}
+
+
+
+
+
+
+
+
 .contenedor {
     -webkit-perspective: 500px;
     perspective: 500px;
