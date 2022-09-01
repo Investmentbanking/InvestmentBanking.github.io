@@ -94,6 +94,10 @@ h3{ font-size: var(--fs-h3) }
 
 }
 
+.about-me{
+    background-color: var(--clr-dark);
+}
+
 .section__subtitle--intro,
 .section__subtitle--about{
     background: var(--clr-accent);
@@ -162,6 +166,7 @@ nav { display: none;}
 .section__title--services {
     color: var(--clr-accent);
     position: relative;
+
 
 }
 
