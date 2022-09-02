@@ -192,11 +192,11 @@ nav { display: none;}
 
     content: '';
     display: block;
-    width: 3em;
+    width: 2em;
     height: 1px;
     margin: 0.5em auto 1em;
     background: var(--clr-light);
-    opacity: 0.5;
+    opacity: 0.25;
 }
 
 .service {
