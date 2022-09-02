@@ -221,8 +221,8 @@ nav { display: none;}
 /** For the rotating cube **/
 
 .container {
-    -webkit-perspective: 250px;
-    perspective: 250px;
+    -webkit-perspective: 500px;
+    perspective: 500px;
     perspective-origin: 50% 50%;
 }
 
@@ -238,7 +238,7 @@ nav { display: none;}
     -webkit-transform: rotateX(-30deg) rotateY(30deg);
     transform: rotateX(-30deg) rotateY(-30deg);
    
-    margin: 75px auto;
+    margin: 150px auto;
    
     -webkit-animation: giro 20s infinite linear;
     animation: giro 20s infinite linear;
@@ -246,7 +246,7 @@ nav { display: none;}
 
 .cube .card {
     position: absolute;
-    border: 2.5px solid #ccc;
+    border: 5px solid #ccc;
     opacity: 0.85;
     transition: 0.2s;
 }
