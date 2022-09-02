@@ -218,7 +218,7 @@ nav { display: none;}
 }
 
 
-/** For the cube **/
+/** For the rotating cube **/
 
 .container {
     -webkit-perspective: 500px;
@@ -227,8 +227,8 @@ nav { display: none;}
 }
 
 .cube, .cube .card {
-    height: 290px;
-    width: 290px;
+    height: 150px;
+    width: 150px;
 }
 
 .cube {
