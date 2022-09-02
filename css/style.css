@@ -223,6 +223,10 @@ nav { display: none;}
         max-width: 1000px;
         margin: 0 auto;
     }
+
+    .about-me__body + .about-me__body {
+        margin-left: 2em;
+    }
 }
 
 
