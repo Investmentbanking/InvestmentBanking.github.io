@@ -183,12 +183,9 @@ nav { display: none;}
 
 
 
+/** For the cube **/
 
-
-
-
-
-.contenedor {
+.container {
     -webkit-perspective: 500px;
     perspective: 500px;
     perspective-origin: 50% 50%;
