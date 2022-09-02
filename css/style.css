@@ -217,6 +217,14 @@ nav { display: none;}
     
 }
 
+@media (min-width: 800px) {
+    .about-section {
+        display: flex;
+        max-width: 1000px;
+        margin: 0 auto;
+    }
+}
+
 
 /** For the cube **/
 
