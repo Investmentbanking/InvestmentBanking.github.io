@@ -63,6 +63,26 @@ strong{
     font-weight: var(--fw-bold);
 }
 
+/* Buttons */
+
+.btn {
+    display: inline-block;
+    padding: 0.5em 1.5em;
+    background: var(--clr-accent);
+    color: var(--clr-light);
+    text-decoration: none;
+    cursor: pointer;
+    font-size: .8rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: var(--fw-bold);
+    transition: transform 200ms ease-in-out;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+}
+
 /* Typogrpahy */
 
 h1,
@@ -177,6 +197,11 @@ nav { display: none;}
     margin: 0.5em auto 1em;
     background: var(--clr-light);
     opacity: 0.5;
+}
+
+.service {
+    max-width: 500px;
+    margin: 0 auto;
 }
 
 @media (min-width: 800px) {
