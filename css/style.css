@@ -63,6 +63,11 @@ strong{
     font-weight: var(--fw-bold);
 }
 
+:focus {
+    outline: 3px solid var(--clr-accent);
+    outline-offset: 3px;
+}
+
 /* Buttons */
 
 .btn {
@@ -82,6 +87,8 @@ strong{
 .btn:hover {
     transform: scale(1.1);
 }
+
+
 
 /* Typogrpahy */
 
