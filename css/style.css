@@ -221,14 +221,14 @@ nav { display: none;}
 /** For the rotating cube **/
 
 .container {
-    -webkit-perspective: 500px;
-    perspective: 500px;
+    -webkit-perspective: 250px;
+    perspective: 250px;
     perspective-origin: 50% 50%;
 }
 
 .cube, .cube .card {
-    height: 150px;
-    width: 150px;
+    height: 145px;
+    width: 145px;
 }
 
 .cube {
@@ -238,7 +238,7 @@ nav { display: none;}
     -webkit-transform: rotateX(-30deg) rotateY(30deg);
     transform: rotateX(-30deg) rotateY(-30deg);
    
-    margin: 150px auto;
+    margin: 75px auto;
    
     -webkit-animation: giro 20s infinite linear;
     animation: giro 20s infinite linear;
@@ -246,52 +246,52 @@ nav { display: none;}
 
 .cube .card {
     position: absolute;
-    border: 5px solid #ccc;
+    border: 2.5px solid #ccc;
     opacity: 0.85;
     transition: 0.2s;
 }
 
 /*card frontal*/
 .cube .card:nth-child(1) {
-    -webkit-transform: translateZ(150px);
-    transform: translateZ(150px);
+    -webkit-transform: translateZ(75px);
+    transform: translateZ(75px);
   }
   /*card posterior*/
   .cube .card:nth-child(2) {
-    -webkit-transform: rotateY(180deg) translateZ(150px);
-    transform: rotateY(180deg) translateZ(150px);
+    -webkit-transform: rotateY(90deg) translateZ(90px);
+    transform: rotateY(90deg) translateZ(90px);
   }
   /*card izquierda*/
   .cube .card:nth-child(3) {
-    -webkit-transform: rotateY(-90deg) translateZ(150px);
-    transform: rotateY(-90deg) translateZ(150px);
+    -webkit-transform: rotateY(-22.5deg) translateZ(37.5px);
+    transform: rotateY(-22.5deg) translateZ(75px);
   }
   /*card derecha*/
   .cube .card:nth-child(4) {
-    -webkit-transform: rotateY(90deg) translateZ(150px);
-    transform: rotateY(90deg) translateZ(150px);
+    -webkit-transform: rotateY(45deg) translateZ(75px);
+    transform: rotateY(45deg) translateZ(75px);
   }
   /*card superior*/
   .cube .card:nth-child(5) {
-    -webkit-transform: rotateX(90deg) translateZ(150px);
-    transform: rotateX(90deg) translateZ(150px);
+    -webkit-transform: rotateX(45deg) translateZ(75px);
+    transform: rotateX(45deg) translateZ(75px);
   }
   /*card inferior*/
   .cube .card:nth-child(6) {
-    -webkit-transform: rotateX(-90deg) translateZ(150px);
-    transform: rotateX(-90deg) translateZ(150px);
+    -webkit-transform: rotateX(-45deg) translateZ(75px);
+    transform: rotateX(-45deg) translateZ(75px);
 }
 
 @-webkit-keyframes giro {
-    0% { -webkit-transform: rotateX(-45deg) rotateY(0deg); }
-    50% { -webkit-transform: rotateX(45deg) rotateY(360deg); }
-    100% { -webkit-transform: rotateX(-45deg) rotateY(720deg); }
+    0% { -webkit-transform: rotateX(-22.5deg) rotateY(0deg); }
+    50% { -webkit-transform: rotateX(22.5deg) rotateY(360deg); }
+    100% { -webkit-transform: rotateX(-22.5deg) rotateY(720deg); }
 }
  
 @keyframes giro {
-    0% { transform: rotateX(-45deg) rotateY(0deg); }
-    50% { transform: rotateX(45deg) rotateY(360deg); }
-    100% { transform: rotateX(-45deg) rotateY(720deg); }
+    0% { transform: rotateX(-22.5deg) rotateY(0deg); }
+    50% { transform: rotateX(22.5deg) rotateY(360deg); }
+    100% { transform: rotateX(-22.5deg) rotateY(720deg); }
 }
  
 @-webkit-keyframes giro360 {
