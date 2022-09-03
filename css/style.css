@@ -180,7 +180,7 @@ header {
     padding: 0;
 }
 
-.nav__list {
+.nav__link {
     color: var(--clr-light);
     font-weight: var(--fw-bold);
     font-size: var(--fs-h2);
