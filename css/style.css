@@ -281,7 +281,7 @@ header {
     .intro {
         display: grid;
         width: min-content;
-        margin: 0 auto;
+        margin: 2.5em auto;
         grid-column-gap: 1em;
         grid-template-areas: 
         "img title"
@@ -506,7 +506,7 @@ header {
     background: #111;
     color: var(--clr-light);
     text-align: center;
-    padding: 2.5em 0 0;
+    padding: 1.5em 0 0;
     font-size: var(--fs-h3);
 }
 
