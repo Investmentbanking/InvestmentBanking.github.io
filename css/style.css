@@ -165,6 +165,9 @@ header {
     transition: transform 250ms cubic-bezier(.5,0,.5,1);
 }
 
+.nav__item {
+    color: var(--clr-light);
+}
 
 .nav__list {
     list-style: none;
