@@ -188,6 +188,17 @@ header {
     color: var(--clr-accent);
 }
 
+.nav-toggle {
+    padding: .5em;
+    background: transparent;
+    border: 0;
+    cursor: pointer;
+    position: absolute;
+    right: 1em;
+    top: 1em;
+    z-index: 1000;
+}
+
 .hamburger {
     display: block;
     position: relative;
@@ -196,7 +207,7 @@ header {
 .hamburger,
 .hamburger::before,
 .hamburger::after {
-    background: var(--clr-dark);
+    background: var(--clr-light);
     width: 2em;
     height: 3px;
     border-radius: 1em;
