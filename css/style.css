@@ -402,6 +402,7 @@ nav { display: none;}
 .footer__link:hover,
 .social-list__link:hover {
     opacity: .7;
+    transform: scale(1.1);
 }
 
 .footer__link:hover {
