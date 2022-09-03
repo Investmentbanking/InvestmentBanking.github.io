@@ -357,7 +357,7 @@ nav { display: none;}
 }
 
 .portfolio__item {
-    background: var(--clr-accent);
+    /**background: var(--clr-accent);**/
     overflow: hidden;
 }
 
