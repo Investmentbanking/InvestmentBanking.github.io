@@ -354,6 +354,8 @@ nav { display: none;}
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    column-gap: 50px;
+    row-gap: 50px;
 }
 
 .portfolio__item {
@@ -362,10 +364,6 @@ nav { display: none;}
 }
 
 .portfolio__img {
-    margin-top: 20px;
-    margin-bottom: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
     transition: 
         transform 750ms cubic-bezier(.5,0,.5,1),
         opacity 250ms linear;
