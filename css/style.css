@@ -41,10 +41,8 @@ html {
     scroll-behavior: smooth;
 }
 
-
-
 body{
-    background-image: url(../img/purple.gif);
+    background-image: url(../img/gold.gif);
     background-size: cover;
     height: 100vh;
     padding:0;
