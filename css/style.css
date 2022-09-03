@@ -374,7 +374,6 @@ nav { display: none;}
     z-index: 2;
 }
 
-
 .portfolio__img:hover,
 .portfolio__item:focus .portfolio__img {
     transform: scale(1.2);
