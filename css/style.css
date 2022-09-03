@@ -36,6 +36,13 @@
 }
 
 /* General Styles */
+
+html {
+    scroll-behavior: smooth;
+}
+
+
+
 body{
     background-image: url(../img/purple.gif);
     background-size: cover;
