@@ -156,6 +156,14 @@ h3{ font-size: var(--fs-h3) }
     max-width: 100px;
 }
 
+.further__links {
+    text-align: left;
+}
+
+.second-nav {
+    text-align: left;
+}
+
 header {
     display: flex;
     justify-content: space-between;
