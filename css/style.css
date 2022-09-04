@@ -502,10 +502,12 @@ header {
     align-items: center;
 }
 
+
 .myImg {
-    margin-left: 45%;
     padding-bottom: 5em;
+    margin: 0 auto;
 }
+
 
 .my-work {
     color:var(--clr-light);
