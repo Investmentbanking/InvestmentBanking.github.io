@@ -504,7 +504,7 @@ header {
 }
 
 .square:hover,
-.portfolio__item:focus .portfolio__img {
+.portfolio__item:focus .square {
     transform: scale(1.2);
     opacity: .75;
 }
