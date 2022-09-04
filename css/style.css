@@ -469,6 +469,11 @@ header {
 
 /** My projects **/
 
+.square {
+    width: 500px;
+    height: 500px;
+}
+
 .my-work {
     color:var(--clr-light);
     text-align: center;
