@@ -148,6 +148,7 @@ h3{ font-size: var(--fs-h3) }
 
 .logo {
     max-width: 100px;
+    cursor: pointer;
 }
 
 .further__links {
@@ -273,7 +274,6 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
-    cursor: pointer;
 }
 
 .section__subtitle--intro {
