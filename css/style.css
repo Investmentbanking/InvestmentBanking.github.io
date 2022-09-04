@@ -476,19 +476,29 @@ header {
 
 /* MY PROJECTS */
 
+.github_img {
+    background-image: url(../img/githubLogo.png);
+}
+
 .top {
     height: 150px;
     background-color: var(--clr-light);
     position: relative;
     background-color: gold;
     padding: 2.5em;
+    display: grid;
+    align-items: center;
+}
+
+.middle {
+    height: 50px;
+    background-color: var(--clr-light);
+    background-color: gold;
 }
 
 .bottom {
-    height: 100px;
-    background-color: var(--clr-light);
     background-color: gold;
-
+    height: 50px;
 }
 
 .my-work {
