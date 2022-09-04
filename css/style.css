@@ -475,6 +475,7 @@ header {
     width: 500px;
     height: 350px;
     background-color: var(--clr-light);
+    border-radius: 25px;
 }
 
 .my-work {
@@ -492,7 +493,6 @@ header {
 .portfolio__item {
     /**background: var(--clr-accent);**/
     overflow: hidden;
-    border-radius: 25px;
 }
 
 .square {
