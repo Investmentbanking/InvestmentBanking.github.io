@@ -476,8 +476,6 @@ header {
     height: 350px;
     background-color: var(--clr-light);
     border-radius: 25px;
-    margin: 0 auto;
-    padding-right: 1em;
 }
 
 .my-work {
@@ -523,6 +521,17 @@ code {
     display: grid;
     align-items: center;
     font-size: 1em;
+}
+
+@media (max-width: 375px) {
+    .square {
+        width: inherit;
+    }
+
+    .portfolio__item {
+        margin-right: 2em;
+        padding-right: 2em;
+    }
 }
 
 /** Footer **/
