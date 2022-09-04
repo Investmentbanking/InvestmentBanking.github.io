@@ -475,7 +475,6 @@ header {
     width: 500px;
     height: 350px;
     background-color: var(--clr-light);
-    border-radius: 25px;
 }
 
 .my-work {
