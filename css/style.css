@@ -472,7 +472,7 @@ header {
 /** My projects **/
 
 .square {
-    width: 500px;
+    width: 350px;
     height: 350px;
     background-color: var(--clr-light);
     border-radius: 25px;
