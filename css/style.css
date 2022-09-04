@@ -520,8 +520,8 @@ code {
 
 .square .top code {
     display: grid;
-    font-size: 1em;
     align-items: center;
+    font-size: 1em;
 }
 
 /** Footer **/
