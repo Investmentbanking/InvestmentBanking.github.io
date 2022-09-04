@@ -477,6 +477,7 @@ header {
     background-color: var(--clr-light);
     border-radius: 25px;
     margin: 0 auto;
+    padding-right: 1em;
 }
 
 .my-work {
@@ -487,8 +488,8 @@ header {
 .portfolio {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    column-gap: 50px;
-    row-gap: 50px;
+    column-gap: 20px;
+    row-gap: 20px;
 }
 
 .portfolio__item {
