@@ -478,6 +478,17 @@ header {
     border-radius: 25px;
 }
 
+.top {
+    
+    height: 150px;
+    background-color: var(--clr-light);
+    position: relative;
+}
+
+.bottom {
+    background-color: var(--clr-light);
+}
+
 .my-work {
     color:var(--clr-light);
     text-align: center;
