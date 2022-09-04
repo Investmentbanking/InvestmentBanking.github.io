@@ -472,8 +472,6 @@ header {
 
 
 
-
-
 /* MY PROJECTS */
 
 .github_img {
@@ -482,23 +480,31 @@ header {
 
 .top {
     height: 150px;
-    background-color: var(--clr-light);
+    background-color: #eedc82;
     position: relative;
-    background-color: gold;
     padding: 2.5em;
     display: grid;
     align-items: center;
 }
 
-.middle {
-    height: 50px;
-    background-color: var(--clr-light);
-    background-color: gold;
+.portfolio__item:hover {
+    position: relative;
+    z-index: 2;
+    transform: scale(1.05);
+    opacity: .75;
 }
 
+
 .bottom {
-    background-color: gold;
-    height: 50px;
+    display: grid;
+    background-color: var(--clr-light);
+    height: 75px;
+    align-items: center;
+}
+
+.myImg {
+    margin-left: 45%;
+    padding-bottom: 5em;
 }
 
 .my-work {
@@ -513,6 +519,7 @@ header {
     row-gap: 20px;
 }
 
+
 .portfolio__item {
     /**background: var(--clr-accent);**/
     overflow: hidden;
@@ -526,27 +533,10 @@ header {
         opacity 250ms linear;
 }
 
-.portfolio__item:hover {
-    position: relative;
-    z-index: 2;
-    transform: scale(1.05);
-    opacity: .75;
-}
+
 
 code {
     font-family: monospace;
-    text-decoration: none;
-}
-
-.square .top {
-    height: 150px;
-    position: relative;
-}
-
-.square .top code {
-    display: grid;
-    align-items: center;
-    font-size: 1em;
 }
 
 /*@media (max-width: 375px) {
