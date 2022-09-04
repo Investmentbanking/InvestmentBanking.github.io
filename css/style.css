@@ -519,7 +519,7 @@ code {
 
 .square .top code {
     display: grid;
-    font-size: 2em;
+    font-size: 0.5em;
     align-items: center;
 }
 
