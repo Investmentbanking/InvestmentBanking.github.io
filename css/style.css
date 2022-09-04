@@ -273,6 +273,7 @@ header {
 
 .intro__img {
     box-shadow: var(--bs);
+    cursor: pointer;
 }
 
 .section__subtitle--intro {
