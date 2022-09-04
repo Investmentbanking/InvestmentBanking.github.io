@@ -469,24 +469,26 @@ header {
    transition: 0.2s;
 }
 
-/** My projects **/
 
-.square {
-    width: 350px;
-    height: 350px;
-    background-color: var(--clr-light);
-    border-radius: 25px;
-}
+
+
+
+
+/* MY PROJECTS */
 
 .top {
-    
     height: 150px;
     background-color: var(--clr-light);
     position: relative;
+    background-color: gold;
+    padding: 2.5em;
 }
 
 .bottom {
+    height: 100px;
     background-color: var(--clr-light);
+    background-color: gold;
+
 }
 
 .my-work {
@@ -504,6 +506,8 @@ header {
 .portfolio__item {
     /**background: var(--clr-accent);**/
     overflow: hidden;
+    border-radius: 25px;
+    text-decoration: none;
 }
 
 .square {
@@ -521,6 +525,7 @@ header {
 
 code {
     font-family: monospace;
+    text-decoration: none;
 }
 
 .square .top {
@@ -534,7 +539,7 @@ code {
     font-size: 1em;
 }
 
-@media (max-width: 375px) {
+/*@media (max-width: 375px) {
     .square {
         width: inherit;
     }
@@ -543,9 +548,13 @@ code {
         margin-right: 2em;
         padding-right: 2em;
     }
-}
+}*/
 
-/** Footer **/
+
+
+
+
+/* FOOTER */
 
 .footer {
     background: #111;
