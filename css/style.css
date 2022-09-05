@@ -488,9 +488,13 @@ header {
 }
 
 /* Pause animation on hover */
+
 .cube:hover{
-    animation-play-state: paused;
+    animation-play-state: paused; 
+  
+
 }
+
 .cube:hover .card{
    opacity: 1;
    transition: 0.2s;
@@ -586,6 +590,13 @@ header {
 
 code {
     font-family: monospace;
+}
+
+@media (max-width: 375px) {
+    .portfolio__item {
+        border-radius: 0px;
+    }
+    
 }
 
 /*@media (max-width: 375px) {
@@ -749,6 +760,4 @@ body {
   }
 }
 */
-
-
 
