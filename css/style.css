@@ -483,11 +483,20 @@ header {
 }
 
 .top {
-    height: 150px;
+    height: 175px;
+    width: inherit;
     background-color: #eedc82;
     position: relative;
     padding: 2.5em;
     display: grid;
+    align-items: center;
+}
+
+.bottom {
+    display: grid;
+    background-color: var(--clr-light);
+    height: 75px;
+    width: inherit;
     align-items: center;
 }
 
@@ -498,20 +507,10 @@ header {
     opacity: .75;
 }
 
-
-.bottom {
-    display: grid;
-    background-color: var(--clr-light);
-    height: 75px;
-    align-items: center;
-}
-
-
 .myImg {
     padding-bottom: 5em;
     margin: 0 auto;
 }
-
 
 .my-work {
     color:var(--clr-light);
@@ -520,9 +519,9 @@ header {
 
 .portfolio {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(350px,1fr));
-    column-gap: 20px;
-    row-gap: 20px;
+    grid-template-columns: repeat(auto-fit, minmax(300px,1fr));
+    column-gap: 50px;
+    row-gap: 50px;
 }
 
 
@@ -538,8 +537,6 @@ header {
         transform 750ms cubic-bezier(.5,0,.5,1),
         opacity 250ms linear;
 }
-
-
 
 code {
     font-family: monospace;
