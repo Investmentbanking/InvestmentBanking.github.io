@@ -12,3 +12,8 @@ navLinks.forEach(link => {
         document.body.classList.remove('nav-open');
     })
 })
+
+function playMusic(){
+    var music = new Audio('click.mp3');
+    music.play();
+}
