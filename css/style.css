@@ -94,9 +94,14 @@ strong{
     transform: scale(1.1);
 }
 
-.button {
-   padding-right: 50%;
-   padding-bottom: 5em;
+/* Buttons: sound button */
+
+.button { 
+   align-items: center;
+   margin: 0 auto;
+   padding-right: 1em;
+   padding-left: 1em;
+   border-radius: 20px;
 }
 
 .click__title {
@@ -111,6 +116,7 @@ strong{
 
 .actual__button {
     cursor: pointer;
+    background-color: rgb(204, 181, 49);
 }
 
 
