@@ -8,6 +8,7 @@
 :root {
     --ff--primary: 'Source Sans Pro', sans-serif;
     --ff--secondary: 'Source Code Pro', monospace;
+    --ff--tertiary: "Georgia", Times, serif;
 
     --fw-reg: 300;
     --fw-bold: 900;
@@ -96,6 +97,16 @@ strong{
 .button {
    padding-right: 50%;
    padding-bottom: 5em;
+}
+
+.click__title {
+    float: left;
+    padding: .45em;
+    font-weight: var(--fw-reg);
+}
+
+.button__sound {
+    float: left;
 }
 
 
@@ -370,6 +381,10 @@ header {
 }
 
 /** About me section **/
+
+.about-me__body {
+    font-family: var(--ff--tertiary);
+}
 
 .about-me {
     max-width: 1000px;
