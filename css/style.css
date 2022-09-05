@@ -109,6 +109,10 @@ strong{
     float: left;
 }
 
+.actual__button {
+    cursor: pointer;
+}
+
 
 /* Typogrpahy */
 
