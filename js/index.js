@@ -17,3 +17,8 @@ function playMusic(){
     var music = new Audio('click.mp3');
     music.play();
 }
+
+function mainSound(){
+    var music = new Audio('mainsound.mp3');
+    music.play();
+}

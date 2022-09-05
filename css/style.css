@@ -93,6 +93,11 @@ strong{
     transform: scale(1.1);
 }
 
+.button {
+   padding-right: 50%;
+   padding-bottom: 5em;
+}
+
 
 
 /* Typogrpahy */
@@ -236,7 +241,6 @@ header {
 .nav-open .hamburger::after {
     opacity: 0;
 }
-
 
 .hamburger {
     display: block;
