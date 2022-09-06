@@ -150,6 +150,9 @@ h3{ font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
+    
+        
+       
 }
 
 /*.section__title--intro strong span {
