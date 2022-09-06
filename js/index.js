@@ -1,6 +1,9 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 const iconLink = document.querySelector('.intro__img');
+let mybutton = document.getElementById("myBtn");
+
+
 
 navToggle.addEventListener('click', () => {
     document.body.classList.toggle('nav-open');
@@ -81,3 +84,27 @@ function mainSound(){
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
     document.body.appendChild(css);
   };
+
+
+  // For the scroll button 
+
+  window.onscroll = function() {scrollFunction()};
+
+  function scrollFunction() {
+    if (document.body.scrollTop > 500 && document.body.scrollTop< 800|| document.documentElement.scrollTop > 500 && document.documentElement.scrollTop < 800) {
+      mybutton.style.display = "block";
+    } else if (document.body.scrollTop > 1000 && document.body.scrollTop< 1800|| document.documentElement.scrollTop > 1000 && document.documentElement.scrollTop < 1800) {
+      mybutton.style.display = "block";
+    } else if (document.body.scrollTop > 4500 && document.body.scrollTop< 6000|| document.documentElement.scrollTop > 4500 && document.documentElement.scrollTop < 6000){
+      mybutton.style.display = "block";
+    }else {
+      mybutton.style.display = "none";
+    }
+  }
+  
+  // When the user clicks on the button, scroll to the top of the document
+  function topFunction() {
+    document.body.scrollTop = 0; // For Safari
+    document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
+  }
+
