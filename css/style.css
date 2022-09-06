@@ -231,6 +231,7 @@ header {
 
         .nav__link:hover {
             color: var(--clr-accent);
+            text-decoration: underline;
         }
 
         .nav {
