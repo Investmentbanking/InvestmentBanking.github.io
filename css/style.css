@@ -99,14 +99,14 @@ strong{
 .button { 
    align-items: center;
    margin: 0 auto;
-   padding-right: 1em;
-   padding-left: 1em;
+   /*padding-right: 1em;
+   padding-left: 1em;*/
    border-radius: 20px;
 }
 
 .click__title {
     float: left;
-    padding: .45em;
+    
     font-weight: var(--fw-reg);
 }
 
@@ -117,6 +117,12 @@ strong{
 .actual__button {
     cursor: pointer;
     background-color: rgb(204, 181, 49);
+    position: absolute;
+    right: 10px;
+    
+    margin-top: 10px;
+    margin-right: 1em;
+    border: none;
 }
 
 
@@ -203,7 +209,7 @@ header {
 
 /* Header: hambuger button */
 
-    @media (min-width: 700px) {
+    @media (min-width: 800px) {
         
         .nav__list {
             list-style: none;
@@ -219,10 +225,11 @@ header {
         }
         
         .nav__item {
-            padding-right: 2em;
+            padding-right: 3em;
             margin: 0 auto;
             align-items: center;
         }
+
 
         .nav__link {
             text-decoration: none;
@@ -236,12 +243,18 @@ header {
 
         .nav {
             margin: 0 auto;
+            
+        
         }
 
     }
 
 
-    @media (max-width: 700px) {
+    @media (max-width: 800px) {
+
+    .actual__button {
+        opacity: 0;
+    }    
 
     .nav {
         position: fixed;
