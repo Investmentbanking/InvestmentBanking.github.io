@@ -301,6 +301,11 @@ header {
 
     @media (max-width: 800px) {
 
+    .scroll-up-button {
+        opacity: 0;
+    }    
+
+
     .actual__button {
         opacity: 0;
     }    
