@@ -1,6 +1,3 @@
-
-
-
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 const iconLink = document.querySelector('.intro__img');
@@ -78,9 +75,9 @@ function mainSound(){
         new TxtRotate(elements[i], JSON.parse(toRotate), period);
       }
     }
-    // INJECT CSS
+    /*// INJECT CSS
     var css = document.createElement("style");
     css.type = "text/css";
     css.innerHTML = ".txt-rotate > .wrap { border-right: 0.08em solid #666 }";
-    document.body.appendChild(css);
+    document.body.appendChild(css);*/
   };
