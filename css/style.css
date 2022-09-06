@@ -239,9 +239,7 @@ header {
 
         .nav {
             margin: 0 auto;
-            top: 0;
-            
-            
+            top: 0; 
         }
 
         .nav__item {
@@ -310,7 +308,7 @@ header {
         background: transparent;
         border: 0;
         cursor: pointer;
-        position: absolute;
+        position: fixed;
         right: 1em;
         top: 1em;
         z-index: 1000;
