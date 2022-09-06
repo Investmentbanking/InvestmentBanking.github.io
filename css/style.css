@@ -207,7 +207,7 @@ header {
     display: flex;
     justify-content: space-between;
     padding: 1em;
-    
+
 }
 
 /* Header: hambuger button */
@@ -227,13 +227,6 @@ header {
             display: none;
         }
         
-        .nav__item {
-            padding-right: 3em;
-            margin: 0 auto;
-            align-items: center;
-        }
-
-
         .nav__link {
             text-decoration: none;
             color: var(--clr-light);
@@ -246,10 +239,20 @@ header {
 
         .nav {
             margin: 0 auto;
+            top: 0;
             
-        
+            
         }
 
+        .nav__item {
+            padding-right: 2em;
+            margin: 0 auto;
+            align-items: center;
+        }
+
+        .logo {
+            position: fixed;
+        }
     }
 
 
