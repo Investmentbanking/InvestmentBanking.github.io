@@ -96,8 +96,10 @@ strong{
 
 .up-button {
     border-radius: 25px;
-    position:fixed; bottom:50px; right:50px; cursor:pointer;
-    
+    position:fixed; 
+    bottom:50px; 
+    right:50px;
+    cursor:pointer;
 }
 
 .scroll-up-button {
@@ -108,8 +110,10 @@ strong{
 }
 
 .scroll-up-button:hover {
-    transform: scale(1.1);
+    transform: scale(1.2);
     cursor: pointer;
+    transition: 1s ease;
+    opacity: .5;
 }
 
 
