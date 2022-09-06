@@ -94,6 +94,9 @@ strong{
     transform: scale(1.1);
 }
 
+#myBtn {
+    display: none;
+}
 
 .up-button-fixed {
     border-radius: 25px;
