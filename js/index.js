@@ -95,9 +95,7 @@ function mainSound(){
       mybutton.style.display = "block";
     } else if (document.body.scrollTop > 1000 && document.body.scrollTop< 1800|| document.documentElement.scrollTop > 1000 && document.documentElement.scrollTop < 1800) {
       mybutton.style.display = "block";
-    } else if (document.body.scrollTop > 4500 && document.body.scrollTop< 6000|| document.documentElement.scrollTop > 4500 && document.documentElement.scrollTop < 6000){
-      mybutton.style.display = "block";
-    }else {
+    } else {
       mybutton.style.display = "none";
     }
   }
