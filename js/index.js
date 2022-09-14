@@ -93,7 +93,7 @@ function mainSound(){
   function scrollFunction() {
     if (document.body.scrollTop > 500 && document.body.scrollTop< 800|| document.documentElement.scrollTop > 500 && document.documentElement.scrollTop < 800) {
       mybutton.style.display = "block";
-    } else if (document.body.scrollTop > 1000 && document.body.scrollTop< 1800|| document.documentElement.scrollTop > 1000 && document.documentElement.scrollTop < 1800) {
+    } else if (document.body.scrollTop > 1200 && document.body.scrollTop< 1900|| document.documentElement.scrollTop > 1200 && document.documentElement.scrollTop < 1900) {
       mybutton.style.display = "block";
     } else {
       mybutton.style.display = "none";

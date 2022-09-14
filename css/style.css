@@ -61,7 +61,7 @@ section {
 }
 
 img {
-    display: block;
+    /*display: block;*/
     max-width: 100%;
 }
 
@@ -793,6 +793,7 @@ code {
     padding: 0 2em 2em;
     max-width: 1000px;
     margin: 0 auto;
+    text-align: center;
 }
 
 .portfolio-item-individual p {
