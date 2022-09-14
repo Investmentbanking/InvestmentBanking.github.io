@@ -136,11 +136,6 @@ strong{
 
 
 
-
-
-
-
-
 /* Buttons: sound button */
 
 .button { 
@@ -629,6 +624,7 @@ header {
 
 
 /* MY PROJECTS */
+
 
 .github_img {
     background-image: url(../img/githubLogo.png);

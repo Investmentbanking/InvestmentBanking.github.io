@@ -1,7 +1,9 @@
 const navToggle = document.querySelector('.nav-toggle');
 const navLinks = document.querySelectorAll('.nav__link');
 const iconLink = document.querySelector('.intro__img');
+
 let mybutton = document.getElementById("myBtn");
+var myAudio = document.getElementById("myAudio");
 
 
 
@@ -17,12 +19,12 @@ navLinks.forEach(link => {
 
 function playMusic(){
     var music = new Audio('click.mp3');
+    
     music.play();
 }
 
 function mainSound(){
-    var music = new Audio('mainsound.mp3');
-    music.play();
+    return myAudio.paused ? myAudio.play() : myAudio.pause();
 }
 
 
@@ -106,3 +108,5 @@ function mainSound(){
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
 
+
+  
