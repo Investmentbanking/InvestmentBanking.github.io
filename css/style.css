@@ -138,6 +138,10 @@ strong{
 
 /* Buttons: sound button */
 
+.button__sound {
+    cursor: pointer;
+}
+
 .button { 
    align-items: center;
    margin: 0 auto;
@@ -152,20 +156,7 @@ strong{
     font-weight: var(--fw-reg);
 }
 
-.button__sound {
-    float: left;
-}
 
-.actual__button {
-    cursor: pointer;
-    background-color: rgb(204, 181, 49);
-    position: absolute;
-    right: 10px;
-    
-    margin-top: 10px;
-    margin-right: 1em;
-    border: none;
-}
 
 
 /* Typogrpahy */
@@ -234,7 +225,6 @@ h3{ font-size: var(--fs-h3) }
 
 .logo {
     max-width: 100px;
-    cursor: pointer;
 }
 
 .further__links {
@@ -619,6 +609,11 @@ header {
    opacity: 1;
    transition: 0.2s;
 }
+
+
+
+
+
 
 
 

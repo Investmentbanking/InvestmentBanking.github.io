@@ -3,7 +3,10 @@ const navLinks = document.querySelectorAll('.nav__link');
 const iconLink = document.querySelector('.intro__img');
 
 let mybutton = document.getElementById("myBtn");
+var soundButton = document.getElementById("soundButton");
+
 var myAudio = document.getElementById("myAudio");
+
 
 
 
@@ -18,13 +21,21 @@ navLinks.forEach(link => {
 })
 
 function playMusic(){
-    var music = new Audio('click.mp3');
-    
-    music.play();
+  var music = new Audio('click.mp3');
+  music.play();
 }
 
-function mainSound(){
-    return myAudio.paused ? myAudio.play() : myAudio.pause();
+function togglePlay(){
+  if (myAudio.paused) {
+    myAudio.play();
+    document.getElementById("soundButton").innerHTML=
+   "Sound ON";
+  } else {
+    myAudio.pause();
+    document.getElementById("soundButton").innerHTML=
+   "Sound OFF";
+  }
+    //return myAudio.paused ? myAudio.play() : myAudio.pause();
 }
 
 
