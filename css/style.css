@@ -270,7 +270,6 @@ header {
         }
 
         .nav {
-            margin: 0 auto;
             top: 0; 
         }
 
@@ -719,7 +718,6 @@ code {
     .square {
         width: inherit;
     }
-
     .portfolio__item {
         margin-right: 2em;
         padding-right: 2em;
@@ -794,16 +792,13 @@ code {
 }
 
 /* Loader 
-
 body, html {
     height: 100%;
     text-align: center;
 }
-
 body {
   background-color: #242F3F;
 }
-
 .loader-wrapper {
     width: 100%;
     height: 100%;
@@ -815,7 +810,6 @@ body {
     justify-content: center;
     align-items: center;
 }
-
 .loader {
   display: inline-block;
   width: 30px;
@@ -824,7 +818,6 @@ body {
   border: 4px solid #Fff;
   animation: loader 2s infinite ease;
 }
-
 .loader-inner {
   vertical-align: top;
   display: inline-block;
@@ -832,7 +825,6 @@ body {
   background-color: #fff;
   animation: loader-inner 2s infinite ease-in;
 }
-
 @keyframes loader {
   0% {
     transform: rotate(0deg);
@@ -854,7 +846,6 @@ body {
     transform: rotate(360deg);
   }
 }
-
 @keyframes loader-inner {
   0% {
     height: 0%;
