@@ -29,12 +29,12 @@ function togglePlay(){
   if (myAudio.paused) {
     myAudio.play();
     soundButton.innerHTML= "Sound ON";
-    soundButton.style.color = "#aa6c39";
+    // soundButton.style.color = "#FFFFFF";
 
   } else {
     myAudio.pause();
     soundButton.innerHTML= "Sound OFF";
-    soundButton.style.color = "#FFFFFF";
+    // soundButton.style.color = "#FFFFFF";
   }
     //return myAudio.paused ? myAudio.play() : myAudio.pause();
 }

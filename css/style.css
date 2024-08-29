@@ -40,12 +40,14 @@
 
 html {
     scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    height: 100%;
 }
-
 body{
     background-image: url(../img/gold.gif);
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     padding:0;
     margin:0;
 
@@ -140,6 +142,9 @@ strong{
 
 .button__sound {
     cursor: pointer;
+    background-color: #111;
+    color: #FFFFFF;
+    padding: 5px;
 }
 
 .button { 
@@ -619,11 +624,6 @@ header {
 
 
 
-
-
-
-
-
 /* MY PROJECTS */
 
 
@@ -731,6 +731,30 @@ code {
     }
 }*/
 
+/* Contact page */
+
+#firstname, #lastname, #email, #subject {
+    width: 100%;
+    padding: 12px; 
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    margin-bottom: 16px; 
+    font-family: 'Montserrat', sans-serif;
+    resize: none;
+}
+
+.contact-form {
+    width: 50%;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: #a7a4a4;
+    padding: 20px;
+    margin-bottom: 50px;
+}
+
+.mandatory {
+    color: red;
+}
 
 /* FOOTER */
 
@@ -740,6 +764,10 @@ code {
     text-align: center;
     padding: 1.5em 0 0;
     font-size: var(--fs-h3);
+    position: static;
+    bottom: 0;
+    width: 100%;
+    margin-bottom: 0;
 }
 
 .footer a { 
@@ -768,6 +796,7 @@ code {
     justify-content: center;
     /*margin: 2em 0 0;*/
     padding: 0;
+    margin-bottom: 0;
 }
 
 .social-list__item {
