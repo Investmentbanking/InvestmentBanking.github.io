@@ -161,7 +161,13 @@ strong{
     font-weight: var(--fw-reg);
 }
 
+/* videos */
 
+video {
+    width: 100%;
+    margin: 0 auto;
+
+}
 
 
 /* Typogrpahy */
@@ -443,6 +449,10 @@ header {
         min-width: 250px;
         position: relative;
         z-index: 2;
+    }
+
+    .to-do-img {
+        min-width: 500px;
     }
 
     .section__subtitle--intro {
