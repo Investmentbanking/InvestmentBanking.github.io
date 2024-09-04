@@ -179,7 +179,7 @@ h3 {
     margin: 0;
 }
 
-h1{ font-size: var(--fs-h1)}
+h1{ font-size: var(--fs-h1) }
 h2{ font-size: var(--fs-h2) }
 h3{ font-size: var(--fs-h3) }
 
@@ -194,9 +194,6 @@ h3{ font-size: var(--fs-h3) }
 
 .section__title--intro {
     font-weight: var(--fw-reg);
-    
-        
-       
 }
 
 /*.section__title--intro strong span {
@@ -212,6 +209,33 @@ h3{ font-size: var(--fs-h3) }
 /**.about-me{
     background-color: var(--clr-dark);
 }**/
+
+/* Certificates section */
+
+.section__subtitle--certificates {
+    color: var(--clr-light);
+    font-weight: var(--fw-bold);
+    margin-bottom: 2em;
+}
+
+.section__title--certificates {
+    margin-bottom: .5em;
+
+}
+
+.cert-btn {
+    margin-top: 2em;
+}
+
+.cert-item:hover {
+    position: relative;
+    z-index: 2;
+    transform: scale(1.05);
+    opacity: .75;
+    cursor: pointer;
+}
+
+/* Projects section */
 
 .section__subtitle--intro,
 .section__subtitle--about{
@@ -694,7 +718,7 @@ header {
     margin: 0 auto;
 }
 
-.my-work {
+.my-work, .my-certifications {
     color:var(--clr-light);
     text-align: center;
 }
