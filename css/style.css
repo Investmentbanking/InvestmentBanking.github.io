@@ -90,6 +90,8 @@ strong{
     letter-spacing: 2px;
     font-weight: var(--fw-bold);
     transition: transform 200ms ease-in-out;
+    border: none;
+
 }
 
 .btn:hover {
@@ -98,6 +100,8 @@ strong{
 
 #myBtn {
     display: none;
+    border: none;
+
 }
 
 .up-button-fixed {
@@ -124,6 +128,8 @@ strong{
     width: 50px;
     height: 50px;
     background-color: var(--clr-accent);
+    border: none;
+
     
 }
 
@@ -223,7 +229,7 @@ h3{ font-size: var(--fs-h3) }
 
 }
 
-.cert-btn {
+.more-btn {
     margin-top: 2em;
 }
 
