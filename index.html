@@ -160,20 +160,23 @@
             <p class="section__subtitle section__subtitle--certificates">Here are a selection of my certificates</p>
 
             <div class="portfolio">
-                    <div class="cert-item">
-                        <img src="img/cert1.png" onclick = "this.requestFullscreen()" width="400px" height="300px">
-                    </div>
-                    <div class="cert-item">
-                        <img src="img/cert2.png" onclick = "this.requestFullscreen()" width="400px" height="300px">
-                    </div>
-                    <div class="cert-item">                   
-                        <img src="img/cert3.png" onclick = "this.requestFullscreen()" width="400px" height="300px">
-                    </div>
-                    <div class="cert-item">
-                        <img src="img/cert4.png" onclick = "this.requestFullscreen()" width="400px" height="300px">
-                    </div>
+                <dialog id="cert-dialog">
+                    <button autofocus id="cert-button">X</button>
+                    <img id="cert-dialog-image" src="" width="600px" height="500px">
+                    <p>Add link to Certificate</p>
+                </dialog>
 
+                <div class="cert-item">
+                    <img src="img/cert1.png" class="cert-image" width="400px" height="300px">
+                  </div>
+                  <div class="cert-item">
+                    <img src="img/cert2.png" class="cert-image" width="400px" height="300px">
+                  </div>
+                  <div class="cert-item">
+                    <img src="img/cert3.png" class="cert-image" width="400px" height="300px">
+                  </div>
             </div>
+
             <a href="certificates.html" class="btn more-btn" style="color:white;" onclick="playMusic()">View More</a>
 
         </section>

@@ -120,5 +120,31 @@ function togglePlay(){
     document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
   }
 
+  // Create div upon click
+
+  // document.getElementById("cert-item-id").onclick = function() {
+  //   var div = document.createElement('div');
+  //   div.style.background = "black";
+  // }
+
+  const dialog = document.getElementById("cert-dialog");
+  const dialogImage = document.getElementById("cert-dialog-image");
+  const closeButton = document.getElementById("cert-button");
+
+  document.querySelectorAll(".cert-image").forEach((image) => {
+    image.addEventListener("click", () => {
+      console.log("start");
+      dialogImage.src = image.src;
+      dialog.showModal();
+      console.log("im here");
+      document.body.style.overflow = "hidden";
+    });
+  });
+
+  closeButton.addEventListener("click", () => {
+    dialog.close();
+    document.body.style.overflow = "auto";
+  });
+
 
   

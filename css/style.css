@@ -241,6 +241,21 @@ h3{ font-size: var(--fs-h3) }
     cursor: pointer;
 }
 
+.dialog::backdrop {
+    background-color: rgba(0, 0, 0, 1);
+    outline: none;
+}
+
+#cert-button {
+    top: 0;
+    right: 0;
+    position: absolute;
+    margin: 25px;
+    outline: none;
+    cursor: pointer;
+    background-color: var(--clr-light);
+}
+
 /* Projects section */
 
 .section__subtitle--intro,
