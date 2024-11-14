@@ -513,6 +513,9 @@ header {
 
 }
 
+
+/** My services **/
+
 .my-services {
     /**background-color: var(--clr-dark);**/
     
@@ -558,6 +561,33 @@ header {
         margin-left: 2em;
     }
     
+}
+
+/** Skill section **/
+
+.my-skills {
+    text-align: center;
+    color: white;
+}
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    text-align: center;
+}
+
+.skill {
+    text-align: center;
+}
+
+.icon-img {
+    border-radius: 50%;
+    width: 100px;
+    height: auto;
+}
+
+.skills-btn {
+    margin-top: 20px;
 }
 
 /** About me section **/
