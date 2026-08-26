@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Ariana's Portfolio Website</title>
+
+        <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" />  
+
+        <link 
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script 
+        src="https://kit.fontawesome.com/73b5d51ce9.js" 
+        crossorigin="anonymous">
+        </script>
+    </head>
+
+
+    <body>
+
+        <!-- HEADER -->
+        <header>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/ariana.gif" alt="">
+                </a>
+            </div>
+
+            <button 
+                class="nav-toggle" 
+                aria-label="toggle navigation" 
+                onclick="playMusic()">
+
+                <span class="hamburger"></span>
+            </button>
+
+
+            <nav class="nav">
+
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">
+                            Home
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">
+                            My skills
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">
+                            About me
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#certificates" class="nav__link">
+                            My Certificates
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#work" class="nav__link">
+                            My Projects
+                        </a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact-page.html" class="nav__link">
+                            Contact me
+                        </a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+
+
+        <!-- INTRODUCTION -->
+        <section class="intro">
+
+            <h1 class="section__title section__title--intro">
+                Final Year <strong>Dissertation</strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">
+                created using React & TypeScript
+            </p>
+
+            <img 
+                src="img/dissertation.png" 
+                alt="Private messaging dissertation prototype" 
+                class="intro__img">
+
+        </section>
+
+
+
+        <!-- PROJECT INFORMATION -->
+        <div class="portfolio-item-individual">
+
+
+            <!-- OBJECTIVE -->
+            <h3>
+                <b>Objective</b>
+            </h3>
+
+            <p>
+                This final year dissertation explores how private one-to-one 
+                messaging platforms can provide users with greater control 
+                before and after sending a message.
+            </p>
+
+            <p>
+                Existing messaging applications usually deliver messages 
+                immediately and only provide users with control after a message 
+                has already been sent. Features such as "Delete for Everyone" 
+                can also create uncertainty because a message may have already 
+                been viewed, captured in a notification, or screenshotted.
+            </p>
+
+            <p>
+                To investigate a better approach, I designed and developed a 
+                functional private messaging prototype that introduces both 
+                pre-send and post-send message control. The aim was to improve 
+                user agency, transparency and confidence while maintaining a 
+                simple and familiar messaging experience.
+            </p>
+
+
+            <br><br>
+
+
+            <!-- FEATURES -->
+            <h3>
+                <b>Features</b>
+            </h3>
+
+            <ul>
+
+                <li>
+                    <b>Configurable Pre-Send Undo Window:</b>
+                    Messages are temporarily delayed before delivery, giving 
+                    the sender an opportunity to cancel a message if they 
+                    immediately regret sending it. Users can choose between 
+                    different undo durations.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Visible Sending Countdown:</b>
+                    A countdown clearly shows the user how much time remains 
+                    before the message is delivered, providing immediate and 
+                    understandable feedback.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Global and Per-Chat Settings:</b>
+                    Users can configure a default undo window across the 
+                    application while also overriding the setting for 
+                    individual conversations.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Transparent Message Deletion:</b>
+                    The prototype provides clear options for removing a message 
+                    from the sender's own view or attempting to remove it from 
+                    both participants' chat histories.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Deletion Limitation Warnings:</b>
+                    Instead of implying that deletion guarantees complete 
+                    removal, the interface clearly communicates limitations 
+                    such as the possibility that a recipient may already have 
+                    viewed or captured the message.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Message Status Feedback:</b>
+                    Visual indicators communicate important message states, 
+                    helping users understand whether a message is being sent, 
+                    delivered, seen, cancelled or removed.
+                </li>
+
+            </ul>
+
+
+            <br><br>
+
+
+            <!-- TECHNOLOGIES -->
+            <h3>
+                <b>Technologies Used</b>
+            </h3>
+
+            <ul>
+
+                <li>
+                    <b>React:</b>
+                    Used to build the component-based messaging interface and 
+                    dynamically update the interface as message states change.
+                </li>
+
+                <li>
+                    <b>TypeScript:</b>
+                    Used to create strongly typed models for messages, contacts 
+                    and application state, improving maintainability and 
+                    reliability.
+                </li>
+
+                <li>
+                    <b>CSS:</b>
+                    Modular CSS files were used to create the visual design, 
+                    message states, animations, modal windows and undo countdown.
+                </li>
+
+                <li>
+                    <b>GitHub:</b>
+                    Used for version control, incremental development and 
+                    tracking changes throughout the project.
+                </li>
+
+            </ul>
+
+
+            <br><br>
+
+
+            <!-- DEVELOPMENT -->
+            <h3>
+                <b>Development</b>
+            </h3>
+
+            <p>
+                The application was developed using a modular, component-based 
+                architecture. Individual React components are responsible for 
+                different areas of the messaging interface, including the chat 
+                list, message display, message input, message bubbles and modal 
+                windows.
+            </p>
+
+            <p>
+                The application's messaging logic is separated from the user 
+                interface using a custom React hook. This manages conversations, 
+                message states, sending behaviour, undo functionality and 
+                message removal while keeping the visual components easier to 
+                maintain.
+            </p>
+
+            <p>
+                The prototype operates on the client side using local state and 
+                timed transitions. This allowed the project to focus specifically 
+                on testing the interaction design and user experience of the 
+                proposed messaging controls.
+            </p>
+
+
+            <br><br>
+
+
+            <!-- USER-CENTRED DESIGN -->
+            <h3>
+                <b>User-Centred Design & Evaluation</b>
+            </h3>
+
+            <p>
+                The system was developed through an iterative user-centred design 
+                process. Research began with a literature review and 
+                semi-structured interviews to understand how users experience 
+                message regret, deletion and loss of control after sending.
+            </p>
+
+            <p>
+                These findings were used to create and progressively refine 
+                low-to-mid fidelity, high-fidelity and finally functional 
+                prototypes. User testing was carried out across four iterative 
+                research rounds, with feedback from each stage influencing the 
+                following version of the design.
+            </p>
+
+
+            <br><br>
+
+
+            <!-- RESULTS -->
+            <h3>
+                <b>Results</b>
+            </h3>
+
+            <p>
+                Evaluation of the final prototype showed that users responded 
+                positively to both the pre-send and post-send control mechanisms.
+                Participants particularly valued honest communication about the 
+                limitations of message deletion rather than being given false 
+                reassurance that deleted content was guaranteed to disappear.
+            </p>
+
+            <p>
+                The configurable pre-send undo mechanism also increased users' 
+                perceived sense of agency by providing an opportunity to 
+                reconsider a message before it became fully delivered.
+            </p>
+
+            <p>
+                By the final round of testing, the majority of usability issues 
+                identified during earlier prototypes had been resolved, with 
+                participants demonstrating a strong understanding of the 
+                system's behaviour and responding positively to its feedback 
+                mechanisms.
+            </p>
+
+
+            <br><br>
+
+
+            <!-- PROJECT IMAGE / GIF -->
+            <figure>
+
+                <img 
+                    src="img/dissertation-demo.gif" 
+                    class="brick-img" 
+                    width="500px"
+                    alt="Demonstration of dissertation messaging prototype">
+
+            </figure>
+
+
+        </div>
+
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <a 
+                href="mailto:a_d20102010@hotmail.com" 
+                class="footer__link" 
+                style="color:white;">
+
+                a_d20102010@hotmail.com
+
+            </a>
+
+
+            <ul class="social-list">
+
+                <li class="social-list__item">
+
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;" 
+                        href="https://github.com/Investmentbanking">
+
+                        <i class="fa-brands fa-github"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li class="social-list__item">
+
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;"
+                        href="https://discordapp.com/users/826267639278075935/">
+
+                        <i class="fa-brands fa-discord"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li class="social-list__item">
+
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;" 
+                        href="https://twitter.com">
+
+                        <i class="fa-brands fa-twitter"></i>
+
+                    </a>
+
+                </li>
+
+
+                <li class="social-list__item">
+
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;" 
+                        href="https://stackoverflow.com/">
+
+                        <i class="fa-brands fa-stack-overflow"></i>
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
