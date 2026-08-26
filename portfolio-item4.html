@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <title>Ariana's Portfolio Website</title>
+
+        <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+        <link rel="stylesheet" 
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
+        crossorigin="anonymous" />  
+
+        <link 
+        href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+        rel="stylesheet">
+
+        <link rel="stylesheet" href="css/style.css">
+
+        <script 
+        src="https://kit.fontawesome.com/73b5d51ce9.js" 
+        crossorigin="anonymous">
+        </script>
+    </head>
+
+
+    <body>
+
+        <!-- HEADER -->
+        <header>
+
+            <div class="logo">
+                <a href="index.html">
+                    <img src="img/ariana.gif" alt="">
+                </a>
+            </div>
+
+            <button 
+                class="nav-toggle" 
+                aria-label="toggle navigation" 
+                onclick="playMusic()">
+
+                <span class="hamburger"></span>
+            </button>
+
+            <nav class="nav">
+
+                <ul class="nav__list">
+
+                    <li class="nav__item">
+                        <a href="index.html" class="nav__link">Home</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#services" class="nav__link">My skills</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#about" class="nav__link">About me</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#certificates" class="nav__link">My Certificates</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="index.html#work" class="nav__link">My Projects</a>
+                    </li>
+
+                    <li class="nav__item">
+                        <a href="contact-page.html" class="nav__link">Contact me</a>
+                    </li>
+
+                </ul>
+
+            </nav>
+
+        </header>
+
+
+
+        <!-- INTRODUCTION -->
+        <section class="intro">
+
+            <h1 class="section__title section__title--intro">
+                Scholar++ <strong> Search Engine </strong>
+            </h1>
+
+            <p class="section__subtitle section__subtitle--intro">
+                created using Python & Django
+            </p>
+
+            <img
+                src="img/scholar++home.png" 
+                alt="Scholar++ scholarly search engine" 
+                class="intro__img">
+
+        </section>
+
+
+
+        <!-- PROJECT INFORMATION -->
+        <div class="portfolio-item-individual">
+
+
+            <!-- OBJECTIVE -->
+            <h3>
+                <b>Objective</b>
+            </h3>
+
+            <p>
+                Scholar++ is a scholarly search engine designed to help users 
+                discover and explore academic content including research works, 
+                authors, concepts, venues and institutions.
+            </p>
+
+            <p>
+                The aim of the project was to provide a user-friendly interface 
+                for searching academic data while also giving users access to 
+                detailed information, statistics and relationships between 
+                different scholarly entities.
+            </p>
+
+            <p>
+                The project was developed as part of a team and integrates data 
+                from the OpenAlex API to provide access to a large collection 
+                of scholarly information.
+            </p>
+
+
+            <br><br>
+
+            <figure>
+
+                <video controls>
+                    <source src="media/scholar++final.mp4" type="video/mp4">
+                    Your browser does not support the video tag.
+                </video>
+
+            </figure>
+
+
+            <!-- FEATURES -->
+            <h3>
+                <b>Features</b>
+            </h3>
+
+            <ul>
+
+                <li>
+                    <b>Simple Keyword Search:</b>
+                    Users can search for scholarly content using standard 
+                    keyword-based queries.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Advanced Search:</b>
+                    The system supports more detailed searches using multiple 
+                    entities and search criteria.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Detailed Entity Pages:</b>
+                    Dedicated pages provide information about works, authors, 
+                    concepts, venues and institutions, including statistics, 
+                    descriptions and related entities.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>User Authentication:</b>
+                    Users can create accounts and log in using standard 
+                    credentials, with support for GitHub OAuth.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Bookmarking:</b>
+                    Logged-in users can save scholarly entities for easier 
+                    access later.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>Search History:</b>
+                    The application stores previously accessed entity pages, 
+                    making it easier for users to revisit academic content.
+                </li>
+
+                <br>
+
+                <li>
+                    <b>OpenAlex API Integration:</b>
+                    Scholarly data is retrieved from the OpenAlex API and used 
+                    throughout the application.
+                </li>
+
+            </ul>
+
+
+            <br><br>
+
+
+            <!-- TECHNOLOGIES -->
+            <h3>
+                <b>Technologies Used</b>
+            </h3>
+
+            <ul>
+
+                <li>
+                    <b>Python:</b>
+                    Used as the primary backend programming language.
+                </li>
+
+                <li>
+                    <b>Django:</b>
+                    Used as the main web framework for routing, authentication, 
+                    data handling and server-side functionality.
+                </li>
+
+                <li>
+                    <b>HTML, CSS & JavaScript:</b>
+                    Used to build and control the structure, styling and 
+                    interactive behaviour of the frontend.
+                </li>
+
+                <li>
+                    <b>Bootstrap:</b>
+                    Used to support responsive styling and user interface 
+                    components.
+                </li>
+
+                <li>
+                    <b>OpenAlex API:</b>
+                    Used to retrieve scholarly data such as works, authors, 
+                    concepts, venues and institutions.
+                </li>
+
+                <li>
+                    <b>django-allauth:</b>
+                    Used to provide authentication functionality, including 
+                    external GitHub login.
+                </li>
+
+                <li>
+                    <b>aiohttp & asyncio:</b>
+                    Used to support asynchronous operations when retrieving 
+                    external data.
+                </li>
+
+                <li>
+                    <b>Chart.js:</b>
+                    Used to visualise statistics and analytics.
+                </li>
+
+                <li>
+                    <b>pandas:</b>
+                    Used for data processing and analytics.
+                </li>
+
+            </ul>
+
+
+            <br><br>
+
+
+            <!-- DEVELOPMENT -->
+            <h3>
+                <b>Development</b>
+            </h3>
+
+            <p>
+                Scholar++ was developed as a collaborative team project. The 
+                application combines a Django backend with a responsive web 
+                interface built using HTML, CSS, JavaScript and Bootstrap.
+            </p>
+
+            <p>
+                The system connects to the OpenAlex API to retrieve live 
+                scholarly data. Asynchronous libraries including aiohttp and 
+                asyncio were used to support efficient data retrieval, while 
+                Django handled routing, authentication and application logic.
+            </p>
+
+            <p>
+                The project also incorporated analytical and visual components 
+                through pandas and Chart.js, allowing scholarly information to 
+                be presented in a more accessible and informative way.
+            </p>
+
+
+            <br><br>
+
+
+            <!-- TEAM PROJECT -->
+            <h3>
+                <b>Team Project</b>
+            </h3>
+
+            <p>
+                Scholar++ was created as part of Team Purrgramming. Working 
+                collaboratively on the project involved coordinating development, 
+                integrating different parts of the application and contributing 
+                to a shared codebase.
+            </p>
+
+            <p>
+                The project gave me experience working within a larger software 
+                development team and contributing to a full-stack web 
+                application built around an external API.
+            </p>
+
+
+            <br><br>
+
+
+            <!-- DEPLOYMENT -->
+            <h3>
+                <b>Deployment</b>
+            </h3>
+
+            <p>
+                The application was originally deployed on a Raspberry Pi and 
+                made publicly accessible through the scholarplusplus.org domain.
+            </p>
+
+            <p>
+                The original Raspberry Pi deployment is no longer active, so 
+                the application currently needs to be run locally for 
+                demonstration.
+            </p>
+
+
+            <br><br>
+
+
+        </div>
+
+
+
+        <!-- FOOTER -->
+        <footer class="footer">
+
+            <a 
+                href="mailto:a_d20102010@hotmail.com" 
+                class="footer__link" 
+                style="color:white;">
+
+                a_d20102010@hotmail.com
+
+            </a>
+
+            <ul class="social-list">
+
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;"
+                        href="https://github.com/Investmentbanking">
+
+                        <i class="fa-brands fa-github"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;"
+                        href="https://discordapp.com/users/826267639278075935/">
+
+                        <i class="fa-brands fa-discord"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;"
+                        href="https://twitter.com">
+
+                        <i class="fa-brands fa-twitter"></i>
+                    </a>
+                </li>
+
+                <li class="social-list__item">
+                    <a 
+                        class="social-list__link" 
+                        style="color:white;"
+                        href="https://stackoverflow.com/">
+
+                        <i class="fa-brands fa-stack-overflow"></i>
+                    </a>
+                </li>
+
+            </ul>
+
+        </footer>
+
+
+        <script src="js/index.js"></script>
+
+    </body>
+</html>
