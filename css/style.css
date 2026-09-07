@@ -1231,6 +1231,316 @@ code {
     opacity: .9;
 }
 
+/* =========================
+   Featured Dissertation
+========================= */
+
+.featured-project-wrapper {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 2rem auto 4rem;
+}
+
+
+.featured-project {
+    width: 70%;
+    max-width: 950px;
+
+    overflow: hidden;
+    border-radius: 25px;
+
+    text-decoration: none;
+
+    box-shadow: 0 12px 30px rgba(0, 0, 0, 0.35);
+
+    transition:
+        transform 0.3s ease,
+        box-shadow 0.3s ease;
+}
+
+
+/* Gold section */
+
+.featured-project__top {
+    min-height: 300px;
+
+    background-color: #eedc82;
+
+    padding: 3rem;
+
+    display: flex;
+    flex-direction: column;
+
+    justify-content: center;
+    align-items: center;
+
+    text-align: center;
+}
+
+
+/* FEATURED PROJECT text */
+
+.featured-label {
+    font-family: var(--ff--secondary);
+
+    font-size: 0.75rem;
+    font-weight: bold;
+
+    letter-spacing: 3px;
+
+    color: #555;
+
+    margin-bottom: 1rem;
+}
+
+
+/* Dissertation title */
+
+.featured-project__title {
+    font-family: var(--ff--secondary);
+
+    font-size: 2rem;
+    line-height: 1.2;
+
+    margin-bottom: 1rem;
+}
+
+
+/* Small description */
+
+.featured-project__description {
+    max-width: 650px;
+
+    margin: 0 auto 1.5rem;
+
+    font-family: var(--ff--primary);
+
+    font-size: 1rem;
+    line-height: 1.6;
+
+    color: #303030;
+}
+
+
+/* View Project button */
+
+.featured-project__button {
+    display: inline-block;
+
+    background: #303030;
+    color: white;
+
+    padding: 0.7rem 1.5rem;
+
+    border-radius: 20px;
+
+    font-family: var(--ff--secondary);
+
+    font-size: 0.8rem;
+    font-weight: bold;
+
+    letter-spacing: 1px;
+
+    transition:
+        transform 0.25s ease,
+        background-color 0.25s ease;
+}
+
+
+/* White bottom section */
+
+.featured-project__bottom {
+    min-height: 90px;
+
+    background: var(--clr-light);
+
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 1.25rem 2.5rem;
+}
+
+
+/* Technology area */
+
+.featured-project__tech {
+    display: flex;
+    align-items: center;
+
+    gap: 0.5rem;
+
+    font-family: var(--ff--secondary);
+}
+
+
+.featured-project__tech .fa-react {
+    font-size: 1.8rem;
+}
+
+
+/* Hover */
+
+.featured-project:hover {
+    transform: translateY(-8px) scale(1.01);
+
+    box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+}
+
+
+.featured-project:hover .featured-project__button {
+    transform: scale(1.05);
+
+    background-color: #111;
+}
+
+
+/* Other Projects heading */
+
+.other-projects-title {
+    margin: 0 0 2rem;
+
+    font-size: 1.6rem;
+
+    color: var(--clr-light);
+
+    text-align: center;
+}
+
+
+/* Mobile */
+
+@media (max-width: 768px) {
+
+    .featured-project {
+        width: 100%;
+    }
+
+
+    .featured-project__top {
+        min-height: 260px;
+        padding: 2rem 1.25rem;
+    }
+
+
+    .featured-project__title {
+        font-size: 1.5rem;
+    }
+
+
+    .featured-project__description {
+        font-size: 0.95rem;
+    }
+
+
+    .featured-project__bottom {
+        flex-direction: column;
+
+        gap: 0.75rem;
+
+        padding: 1.25rem;
+
+        text-align: center;
+    }
+
+}
+
+
+.featured-project__top {
+    min-height: 250px;
+}
+
+.other-projects-title {
+    margin: 2.5rem 0 2rem;
+}
+
+.bottom {
+    height: 90px;
+}
+
+.myImg {
+    padding-bottom: 4em;
+}
+
+
+
+.featured-project__tech-icons {
+    display: flex;
+    align-items: center;
+    gap: 14px;
+}
+
+/* React logo */
+.react-icon {
+    font-size: 32px;
+    color: #303030;
+}
+
+/* TypeScript-style icon */
+.typescript-icon {
+    width: 32px;
+    height: 32px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background: #303030;
+    color: white;
+
+    font-family: Arial, sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+
+    border-radius: 4px;
+}
+
+/* Keep the full projects page visually consistent */
+.all-projects-page {
+    max-width: 1500px;
+    margin: 0 auto;
+}
+
+.all-projects-page .portfolio {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 35px;
+}
+
+@media (max-width: 1200px) {
+    .all-projects-page .portfolio {
+        grid-template-columns: repeat(3, 1fr);
+    }
+}
+
+@media (max-width: 900px) {
+    .all-projects-page .portfolio {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 600px) {
+    .all-projects-page .portfolio {
+        grid-template-columns: 1fr;
+    }
+}
+
+
+/* Make homepage Other Project cards more square */
+#work:not(.all-projects-page) .portfolio__item .top {
+    height: 230px;
+}
+
+#work:not(.all-projects-page) .portfolio__item .bottom {
+    height: 90px;
+}
+
+
+
+
+
+
 
 
 
