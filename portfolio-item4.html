@@ -1,416 +1,1033 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Ariana's Portfolio Website</title>
+<head>
 
-        <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+    <meta charset="UTF-8">
 
-        <link rel="stylesheet" 
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Ariana's Portfolio Website</title>
+
+    <link
+        rel="shortcut icon"
+        type="img/png"
+        href="img/favicon.png">
+
+    <link
+        rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
-        crossorigin="anonymous" />  
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+        crossorigin="anonymous">
 
-        <link 
+    <link
         href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="css/style.css">
 
-        <script 
-        src="https://kit.fontawesome.com/73b5d51ce9.js" 
+    <script
+        src="https://kit.fontawesome.com/73b5d51ce9.js"
         crossorigin="anonymous">
-        </script>
-    </head>
+    </script>
 
-
-    <body>
-
-        <!-- HEADER -->
-        <header>
-
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/ariana.gif" alt="">
-                </a>
-            </div>
-
-            <button 
-                class="nav-toggle" 
-                aria-label="toggle navigation" 
-                onclick="playMusic()">
-
-                <span class="hamburger"></span>
-            </button>
-
-            <nav class="nav">
-
-                <ul class="nav__list">
-
-                    <li class="nav__item">
-                        <a href="index.html" class="nav__link">Home</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="index.html#services" class="nav__link">My skills</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="index.html#about" class="nav__link">About me</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="index.html#certificates" class="nav__link">My Certificates</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="index.html#work" class="nav__link">My Projects</a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="contact-page.html" class="nav__link">Contact me</a>
-                    </li>
-
-                </ul>
-
-            </nav>
-
-        </header>
+</head>
 
 
 
-        <!-- INTRODUCTION -->
-        <section class="intro">
+<body>
 
-            <h1 class="section__title section__title--intro">
-                Scholar++ <strong> Search Engine </strong>
-            </h1>
 
-            <p class="section__subtitle section__subtitle--intro">
-                created using Python & Django
+    <!-- =========================
+         HEADER
+    ========================== -->
+
+    <header>
+
+        <div class="logo">
+
+            <a href="index.html">
+
+                <img
+                    src="img/ariana.gif"
+                    alt="">
+
+            </a>
+
+        </div>
+
+
+        <button
+            class="nav-toggle"
+            aria-label="toggle navigation"
+            onclick="playMusic()">
+
+            <span class="hamburger"></span>
+
+        </button>
+
+
+        <nav class="nav">
+
+            <ul class="nav__list">
+
+                <li class="nav__item">
+
+                    <a
+                        href="index.html"
+                        class="nav__link">
+
+                        Home
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav__item">
+
+                    <a
+                        href="index.html#services"
+                        class="nav__link">
+
+                        My skills
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav__item">
+
+                    <a
+                        href="index.html#about"
+                        class="nav__link">
+
+                        About me
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav__item">
+
+                    <a
+                        href="index.html#certificates"
+                        class="nav__link">
+
+                        My Certificates
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav__item">
+
+                    <a
+                        href="index.html#work"
+                        class="nav__link">
+
+                        My Projects
+
+                    </a>
+
+                </li>
+
+
+                <li class="nav__item">
+
+                    <a
+                        href="contact-page.html"
+                        class="nav__link">
+
+                        Contact me
+
+                    </a>
+
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         INTRODUCTION
+    ========================== -->
+
+    <section class="intro">
+
+        <h1 class="section__title section__title--intro">
+
+            Scholar++ <strong>Search Engine</strong>
+
+        </h1>
+
+
+        <p class="section__subtitle section__subtitle--intro">
+
+            Full-Stack Scholarly Search & Analytics Platform
+
+        </p>
+
+
+        <img
+            src="img/scholar++home.png"
+            alt="Scholar++ scholarly search engine"
+            class="intro__img">
+
+    </section>
+
+
+
+    <!-- =========================
+         PROJECT INFORMATION
+    ========================== -->
+
+    <div class="portfolio-item-individual project-case-study">
+
+
+        <!-- =========================
+             PROJECT OVERVIEW
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Project Overview
+
+            </h2>
+
+
+            <p class="project-lead">
+
+                Scholar++ is a full-stack scholarly search engine built with
+                Python and Django, designed to make academic information easier
+                to discover, explore and analyse.
+
             </p>
 
-            <img
-                src="img/scholar++home.png" 
-                alt="Scholar++ scholarly search engine" 
-                class="intro__img">
+
+            <p>
+
+                The platform integrates with the OpenAlex API to search scholarly
+                content including works, authors, concepts, venues and institutions.
+                It provides both simple keyword search and more advanced
+                relationship-based discovery between scholarly entities.
+
+            </p>
+
+
+            <p>
+
+                Scholar++ also includes authentication, bookmarking, search history,
+                analytics and detailed entity pages, creating a complete research
+                discovery experience beyond a standard keyword search tool.
+
+            </p>
 
         </section>
 
 
 
-        <!-- PROJECT INFORMATION -->
-        <div class="portfolio-item-individual">
+        <!-- =========================
+             KEY FEATURES
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Key Features
+
+            </h2>
 
 
-            <!-- OBJECTIVE -->
-            <h3>
-                <b>Objective</b>
-            </h3>
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Advanced Scholarly Search
+                    </h3>
+
+                    <p>
+
+                        Supports both standard keyword searches and advanced
+                        searches based on selected scholarly entities and their
+                        relationships.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Asynchronous API Integration
+                    </h3>
+
+                    <p>
+
+                        Uses aiohttp and asyncio to retrieve scholarly information
+                        from the OpenAlex API asynchronously, including concurrent
+                        operations during more complex searches.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Relationship-Based Discovery
+                    </h3>
+
+                    <p>
+
+                        Advanced search can explore relationships between authors,
+                        works, citing works, co-authors and publication sources.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Detailed Entity Pages
+                    </h3>
+
+                    <p>
+
+                        Dedicated information pages display scholarly data,
+                        statistics and relationships for works, authors,
+                        concepts, venues and institutions.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Authentication & Bookmarking
+                    </h3>
+
+                    <p>
+
+                        Users can create accounts, log in using standard
+                        credentials or GitHub OAuth, and bookmark scholarly
+                        entities for later access.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Search History
+                    </h3>
+
+                    <p>
+
+                        Previously accessed scholarly entity pages are stored,
+                        allowing users to quickly return to earlier research
+                        and discoveries.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             TECHNOLOGIES USED
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Technologies Used
+
+            </h2>
+
+
+            <div class="project-tech-grid">
+
+
+                <div class="project-tech-card">
+
+                    <i class="fab fa-python project-tech-icon"></i>
+
+                    <span>
+                        Python
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fas fa-server project-tech-icon"></i>
+
+                    <span>
+                        Django
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fas fa-database project-tech-icon"></i>
+
+                    <span>
+                        OpenAlex API
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fab fa-js project-tech-icon"></i>
+
+                    <span>
+                        JavaScript
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fas fa-chart-bar project-tech-icon"></i>
+
+                    <span>
+                        pandas / Chart.js
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fas fa-user-lock project-tech-icon"></i>
+
+                    <span>
+                        django-allauth
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ARCHITECTURE
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Architecture
+
+            </h2>
+
 
             <p>
-                Scholar++ is a scholarly search engine designed to help users 
-                discover and explore academic content including research works, 
-                authors, concepts, venues and institutions.
+
+                Scholar++ separates search behaviour, external API interaction,
+                authentication, analytics and entity presentation across
+                dedicated application modules, keeping responsibilities
+                organised throughout the system.
+
             </p>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Entity-Based Search
+                    </h3>
+
+                    <p>
+
+                        Search functionality distinguishes between scholarly
+                        entity types such as authors and works, allowing search
+                        behaviour to adapt depending on the selected entity.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Reusable Search Logic
+                    </h3>
+
+                    <p>
+
+                        Shared asynchronous search functions handle common
+                        behaviour while allowing entity-specific lookup
+                        functions and result formatting to be supplied.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Concurrent API Requests
+                    </h3>
+
+                    <p>
+
+                        Independent API operations can run concurrently using
+                        asyncio.gather, reducing unnecessary sequential waiting
+                        during advanced search operations.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Validation & Filtering
+                    </h3>
+
+                    <p>
+
+                        Custom Django form validation checks entity selections,
+                        search types and date ranges before advanced search
+                        requests are processed.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             CHALLENGES & DESIGN DECISIONS
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Challenges & Design Decisions
+
+            </h2>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Modelling Relationships Between Scholarly Entities
+                </h3>
+
+                <p>
+
+                    Advanced search needed to support more than direct keyword
+                    matching. Search flows were designed to move between
+                    related authors, works, citing works, co-authors and
+                    publication sources.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Handling External API Requests Efficiently
+                </h3>
+
+                <p>
+
+                    Scholar++ depends heavily on external scholarly data, so
+                    asynchronous requests and concurrent operations were used
+                    where appropriate to reduce unnecessary waiting during
+                    complex searches.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Keeping Search Inputs Valid
+                </h3>
+
+                <p>
+
+                    Advanced search supports different combinations of
+                    entities, search modes and date filters. Custom validation
+                    prevents invalid combinations from being submitted to the
+                    search layer.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Presenting Complex Academic Data
+                </h3>
+
+                <p>
+
+                    Scholarly information can contain large amounts of
+                    interconnected data. Dedicated information pages,
+                    analytics and visualisations help organise this information
+                    into a clearer and more accessible interface.
+
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =========================
+             ADVANCED SEARCH
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Advanced Search
+
+            </h2>
+
+
+            <p class="project-lead">
+
+                Scholar++ goes beyond standard keyword matching by allowing
+                users to discover scholarly content through relationships
+                between authors, works and publication sources.
+
+            </p>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Author → Citing Works
+                    </h3>
+
+                    <p>
+
+                        Finds works published by selected authors alongside
+                        scholarly works that cite their publications.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Author → Related Sources
+                    </h3>
+
+                    <p>
+
+                        Finds works published in sources where selected authors
+                        have previously published.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Work → Co-Author Discovery
+                    </h3>
+
+                    <p>
+
+                        Identifies authors associated with selected works and
+                        retrieves additional works connected to their
+                        co-authors.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Work → Source Relationships
+                    </h3>
+
+                    <p>
+
+                        Finds authors of selected works alongside other authors
+                        who have published within the same publication sources.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ANALYTICS
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Analytics & Visualisation
+
+            </h2>
+
 
             <p>
-                The aim of the project was to provide a user-friendly interface 
-                for searching academic data while also giving users access to 
-                detailed information, statistics and relationships between 
-                different scholarly entities.
+
+                Scholar++ includes analytical functionality designed to make
+                scholarly information easier to understand and compare.
+
             </p>
+
 
             <p>
-                The project was developed as part of a team and integrates data 
-                from the OpenAlex API to provide access to a large collection 
-                of scholarly information.
+
+                pandas is used for data processing and analytics, while
+                Chart.js provides graphical visualisations within the
+                application interface.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             AUTHENTICATION
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Authentication & User Features
+
+            </h2>
+
+
+            <p>
+
+                Authentication is implemented using django-allauth. Users can
+                access the platform through traditional account credentials or
+                external GitHub OAuth authentication.
+
             </p>
 
 
-            <br><br>
+            <p>
 
-            <figure>
+                Authenticated users can bookmark scholarly entities and access
+                previously viewed entity pages through the application's
+                history functionality.
 
-                <video controls>
-                    <source src="media/scholar++final.mp4" type="video/mp4">
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             DEPLOYMENT
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+
+                Deployment
+
+            </h2>
+
+
+            <p>
+
+                Scholar++ was deployed on a Raspberry Pi and made publicly
+                accessible through the scholarplusplus.org domain.
+
+            </p>
+
+
+            <p>
+
+                The original Raspberry Pi deployment is no longer active, so
+                the application currently needs to be run locally for
+                demonstration.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECT DEMO
+        ========================== -->
+
+        <section class="project-section project-demo">
+
+            <h2 class="project-section__title">
+
+                Project Demo
+
+            </h2>
+
+
+            <p class="project-demo__intro">
+
+                A demonstration of Scholar++ showing the scholarly search
+                interface and application features.
+
+            </p>
+
+
+            <div class="project-video-wrapper">
+
+                <video
+                    controls
+                    width="100%">
+
+                    <source
+                        src="media/scholar++final.mp4"
+                        type="video/mp4">
+
                     Your browser does not support the video tag.
+
                 </video>
 
-            </figure>
+            </div>
+
+        </section>
 
 
-            <!-- FEATURES -->
-            <h3>
-                <b>Features</b>
-            </h3>
 
-            <ul>
+        <!-- =========================
+             SOURCE CODE
+        ========================== -->
 
-                <li>
-                    <b>Simple Keyword Search:</b>
-                    Users can search for scholarly content using standard 
-                    keyword-based queries.
-                </li>
+        <section class="project-section project-demo">
 
-                <br>
+            <h2 class="project-section__title">
 
-                <li>
-                    <b>Advanced Search:</b>
-                    The system supports more detailed searches using multiple 
-                    entities and search criteria.
-                </li>
+                Source Code
 
-                <br>
-
-                <li>
-                    <b>Detailed Entity Pages:</b>
-                    Dedicated pages provide information about works, authors, 
-                    concepts, venues and institutions, including statistics, 
-                    descriptions and related entities.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>User Authentication:</b>
-                    Users can create accounts and log in using standard 
-                    credentials, with support for GitHub OAuth.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>Bookmarking:</b>
-                    Logged-in users can save scholarly entities for easier 
-                    access later.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>Search History:</b>
-                    The application stores previously accessed entity pages, 
-                    making it easier for users to revisit academic content.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>OpenAlex API Integration:</b>
-                    Scholarly data is retrieved from the OpenAlex API and used 
-                    throughout the application.
-                </li>
-
-            </ul>
+            </h2>
 
 
-            <br><br>
+            <p class="project-demo__intro">
 
+                The Scholar++ source code is available on GitHub.
 
-            <!-- TECHNOLOGIES -->
-            <h3>
-                <b>Technologies Used</b>
-            </h3>
-
-            <ul>
-
-                <li>
-                    <b>Python:</b>
-                    Used as the primary backend programming language.
-                </li>
-
-                <li>
-                    <b>Django:</b>
-                    Used as the main web framework for routing, authentication, 
-                    data handling and server-side functionality.
-                </li>
-
-                <li>
-                    <b>HTML, CSS & JavaScript:</b>
-                    Used to build and control the structure, styling and 
-                    interactive behaviour of the frontend.
-                </li>
-
-                <li>
-                    <b>Bootstrap:</b>
-                    Used to support responsive styling and user interface 
-                    components.
-                </li>
-
-                <li>
-                    <b>OpenAlex API:</b>
-                    Used to retrieve scholarly data such as works, authors, 
-                    concepts, venues and institutions.
-                </li>
-
-                <li>
-                    <b>django-allauth:</b>
-                    Used to provide authentication functionality, including 
-                    external GitHub login.
-                </li>
-
-                <li>
-                    <b>aiohttp & asyncio:</b>
-                    Used to support asynchronous operations when retrieving 
-                    external data.
-                </li>
-
-                <li>
-                    <b>Chart.js:</b>
-                    Used to visualise statistics and analytics.
-                </li>
-
-                <li>
-                    <b>pandas:</b>
-                    Used for data processing and analytics.
-                </li>
-
-            </ul>
-
-
-            <br><br>
-
-
-            <!-- DEVELOPMENT -->
-            <h3>
-                <b>Development</b>
-            </h3>
-
-            <p>
-                Scholar++ was developed as a collaborative team project. The 
-                application combines a Django backend with a responsive web 
-                interface built using HTML, CSS, JavaScript and Bootstrap.
-            </p>
-
-            <p>
-                The system connects to the OpenAlex API to retrieve live 
-                scholarly data. Asynchronous libraries including aiohttp and 
-                asyncio were used to support efficient data retrieval, while 
-                Django handled routing, authentication and application logic.
-            </p>
-
-            <p>
-                The project also incorporated analytical and visual components 
-                through pandas and Chart.js, allowing scholarly information to 
-                be presented in a more accessible and informative way.
             </p>
 
 
-            <br><br>
+            <a
+                href="https://github.com/mmmmie/ScholarPurrgramme"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-source-btn">
 
+                <i class="fab fa-github"></i>
 
-            <!-- TEAM PROJECT -->
-            <h3>
-                <b>Team Project</b>
-            </h3>
-
-            <p>
-                Scholar++ was created as part of Team Purrgramming. Working 
-                collaboratively on the project involved coordinating development, 
-                integrating different parts of the application and contributing 
-                to a shared codebase.
-            </p>
-
-            <p>
-                The project gave me experience working within a larger software 
-                development team and contributing to a full-stack web 
-                application built around an external API.
-            </p>
-
-
-            <br><br>
-
-
-            <!-- DEPLOYMENT -->
-            <h3>
-                <b>Deployment</b>
-            </h3>
-
-            <p>
-                The application was originally deployed on a Raspberry Pi and 
-                made publicly accessible through the scholarplusplus.org domain.
-            </p>
-
-            <p>
-                The original Raspberry Pi deployment is no longer active, so 
-                the application currently needs to be run locally for 
-                demonstration.
-            </p>
-
-
-            <br><br>
-
-
-        </div>
-
-
-
-        <!-- FOOTER -->
-        <footer class="footer">
-
-            <a 
-                href="mailto:a_d20102010@hotmail.com" 
-                class="footer__link" 
-                style="color:white;">
-
-                a_d20102010@hotmail.com
+                View Source Code
 
             </a>
 
-            <ul class="social-list">
-
-                <li class="social-list__item">
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;"
-                        href="https://github.com/Investmentbanking">
-
-                        <i class="fa-brands fa-github"></i>
-                    </a>
-                </li>
-
-                <li class="social-list__item">
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;"
-                        href="https://discordapp.com/users/826267639278075935/">
-
-                        <i class="fa-brands fa-discord"></i>
-                    </a>
-                </li>
-
-                <li class="social-list__item">
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;"
-                        href="https://twitter.com">
-
-                        <i class="fa-brands fa-twitter"></i>
-                    </a>
-                </li>
-
-                <li class="social-list__item">
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;"
-                        href="https://stackoverflow.com/">
-
-                        <i class="fa-brands fa-stack-overflow"></i>
-                    </a>
-                </li>
-
-            </ul>
-
-        </footer>
+        </section>
 
 
-        <script src="js/index.js"></script>
+    </div>
 
-    </body>
+
+
+    <!-- =========================
+         FOOTER
+    ========================== -->
+
+    <footer class="footer">
+
+
+        <a
+            href="mailto:a_d20102010@hotmail.com"
+            class="footer__link"
+            style="color:white;">
+
+            a_d20102010@hotmail.com
+
+        </a>
+
+
+        <ul class="social-list">
+
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://github.com/Investmentbanking">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+            </li>
+
+
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://discordapp.com/users/826267639278075935/">
+
+                    <i class="fa-brands fa-discord"></i>
+
+                </a>
+
+            </li>
+
+
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://twitter.com">
+
+                    <i class="fa-brands fa-twitter"></i>
+
+                </a>
+
+            </li>
+
+
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://stackoverflow.com/">
+
+                    <i class="fa-brands fa-stack-overflow"></i>
+
+                </a>
+
+            </li>
+
+
+        </ul>
+
+    </footer>
+
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
 </html>

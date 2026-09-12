@@ -53,37 +53,279 @@
             <img src="img/download.png" alt="" class = "intro__img">
         </section>
 
-        <div class="portfolio-item-individual">
-             <p>
-                <h3><b>Objective</b><br><br></h3>
-                The goal of Brick Breaker is to use the paddle to bounce the ball towards the bricks, breaking them all to advance. Once all the bricks are destroyed, you win the game. However, if the ball falls below the paddle, you lose a life. The player has three lives, and the game ends when all lives are lost.
-             <br><br>
-                <h3><b>Features</b></h3>
-                <ul>
-                    <li>
-                        <b>Six Unique Backgrounds:</b> Choose from six different backgrounds to customize your gaming experience.
-                    </li>
-                    <li>
-                        <b>Five Challenging Levels:</b> Progress through five difficulty levels, each offering a new challenge to test your skills.
-                    </li>
-                    <li>
-                        <b>Engaging Gameplay:</b> The game combines strategy and reflexes, providing a fun and challenging experience for all players.
-                    </li>
-                </ul>
-            </p>
-            <figure>
-            <img src="img/brickgif.gif" class="brick-img" width=300px height=300px/>
-            </figure>
-            <!-- <p> The game uses many programming fundamentals. For instanc euse of a game object class Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
-                Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure
-                dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non
-                proident, sunt in culpa qui officia deserunt mollit anim id est laborum</p> -->
+        <div class="portfolio-item-individual project-case-study">
+
+    <!-- PROJECT OVERVIEW -->
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Project Overview
+        </h2>
+
+        <p class="project-lead">
+            Brick Breaker is a Java Swing game built around real-time gameplay,
+            multiple difficulty levels and configurable visual settings.
+        </p>
+
+        <p>
+            The player controls a paddle to keep the ball in play and destroy
+            all bricks on the screen. If the ball falls below the paddle, the
+            player loses a life. The game ends when all lives are lost or all
+            bricks are cleared.
+        </p>
+
+        <p>
+            The project was designed using an object-oriented structure, with
+            separate classes handling different game objects, interface elements
+            and configuration options.
+        </p>
+
+    </section>
+
+
+    <!-- KEY FEATURES -->
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Key Features
+        </h2>
+
+       
+
+        <div class="project-feature-grid">
+
+    <div class="project-feature-card">
+        <h3>Real-Time Game Loop</h3>
+        <p>
+            A Swing Timer drives a continuous update and render cycle,
+            updating game logic and repainting the interface to provide
+            responsive real-time gameplay.
+        </p>
+    </div>
+
+    <div class="project-feature-card">
+        <h3>Object-Oriented Architecture</h3>
+        <p>
+            An abstract GameObject base class defines shared properties
+            and behaviour for game entities, with individual objects
+            providing their own update and rendering implementations.
+        </p>
+    </div>
+
+    <div class="project-feature-card">
+        <h3>Centralised Object Management</h3>
+        <p>
+            A dedicated Handler manages active game objects and coordinates
+            their update and rendering cycles through a shared GameObject
+            collection.
+        </p>
+    </div>
+
+    <div class="project-feature-card">
+        <h3>Dynamic Difficulty</h3>
+        <p>
+            Five difficulty settings dynamically alter ball velocity,
+            progressively increasing the speed and challenge of gameplay.
+        </p>
+    </div>
+
+    <div class="project-feature-card">
+        <h3>Event-Driven Controls</h3>
+        <p>
+            Swing key bindings respond to key press and release events,
+            updating paddle velocity to provide responsive movement.
+        </p>
+    </div>
+
+    <div class="project-feature-card">
+        <h3>Game State Management</h3>
+        <p>
+            The game manages lives, countdowns, pause and resume behaviour,
+            difficulty state, and win/loss transitions throughout gameplay.
+        </p>
+    </div>
+
+</div>
+
+    </section>
+
+
+    <!-- TECHNOLOGIES -->
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Technologies Used
+        </h2>
+
+        <div class="project-tech-grid">
+
+            <div class="project-tech-card">
+                <i class="fab fa-java project-tech-icon"></i>
+                <span>Java</span>
+            </div>
+
+            <div class="project-tech-card">
+                <i class="fas fa-desktop project-tech-icon"></i>
+                <span>Java Swing</span>
+            </div>
+
+            <div class="project-tech-card">
+                <i class="fab fa-github project-tech-icon"></i>
+                <span>GitHub</span>
+            </div>
+
         </div>
 
+    </section>
+
+
+    <!-- ARCHITECTURE -->
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Architecture
+        </h2>
+
+        <p>
+            The game is split across multiple Java classes so that different
+            responsibilities remain separated.
+        </p>
+
+        <div class="project-feature-grid">
+
+            <div class="project-feature-card">
+                <h3>Game Objects</h3>
+                <p>
+                    Classes such as Ball, Paddle and Brick represent the core
+                    objects used during gameplay.
+                </p>
+            </div>
+
+            <div class="project-feature-card">
+                <h3>Brick Behaviour</h3>
+                <p>
+                    Separate brick classes such as NormalBrick and
+                    ColorChangingBrick allow different brick behaviour to be
+                    implemented without placing everything in one class.
+                </p>
+            </div>
+
+            <div class="project-feature-card">
+                <h3>Game Window</h3>
+                <p>
+                    GameWindow and related interface classes manage the main
+                    application window and visual presentation.
+                </p>
+            </div>
+
+            <div class="project-feature-card">
+                <h3>Configuration</h3>
+                <p>
+                    Dedicated selector classes handle difficulty and background
+                    selection independently from the core gameplay classes.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CHALLENGES -->
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Challenges & Design Decisions
+        </h2>
+
+        <div class="project-challenge">
+
+            <h3>Keeping Gameplay Responsive</h3>
+
+            <p>
+                A key challenge was ensuring that the ball, paddle and bricks
+                could update smoothly while the interface remained responsive.
+            </p>
+
+        </div>
+
+
+        <div class="project-challenge">
+
+            <h3>Separating Responsibilities</h3>
+
+            <p>
+                Rather than placing the full game inside one large class, the
+                project separates game objects, selectors, windows and level
+                behaviour into individual classes.
+            </p>
+
+        </div>
+
+
+        <div class="project-challenge">
+
+            <h3>Managing Difficulty</h3>
+
+            <p>
+                Supporting multiple difficulty levels required the game to handle
+                different gameplay configurations while keeping the interface
+                simple for the player.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- DEMO -->
+    <section class="project-section project-demo">
+
+        <h2 class="project-section__title">
+            Project Demo
+        </h2>
+
+        <p class="project-demo__intro">
+            A preview of the game's difficulty selection and gameplay interface.
+        </p>
+
+        <div class="brick-demo-wrapper">
+
+            <img
+                src="img/brickgif.gif"
+                class="brick-demo-image"
+                alt="Brick Breaker gameplay demonstration">
+
+        </div>
+
+    </section>
+
+
+    <!-- SOURCE CODE -->
+    <section class="project-section project-demo">
+
+        <h2 class="project-section__title">
+            Source Code
+        </h2>
+
+        <p class="project-demo__intro">
+            The full Java project is available on GitHub.
+        </p>
+
+        <a
+            href="https://github.com/Investmentbanking/AdvancedBreakoutGame"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-source-btn">
+
+            <i class="fab fa-github"></i>
+            View Source Code
+
+        </a>
+
+    </section>
+
+</div>
         
         <!-- Footer -->
 

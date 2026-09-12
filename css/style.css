@@ -1536,6 +1536,288 @@ code {
     height: 90px;
 }
 
+/* =========================
+   BRICK BREAKER PROJECT
+========================= */
+
+.brick-demo-wrapper {
+    max-width: 650px;
+    margin: 2rem auto 0;
+}
+
+.brick-demo-image {
+    display: block;
+
+    width: 100%;
+    height: auto;
+
+    border-radius: 18px;
+
+    box-shadow:
+        0 12px 30px rgba(0, 0, 0, 0.35);
+}
+
+
+/* GitHub source button */
+
+.project-source-btn {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    gap: 0.7rem;
+
+    margin-top: 1.5rem;
+
+    padding: 0.8rem 1.6rem;
+
+    background: var(--clr-accent);
+
+    color: #111;
+
+    font-family: var(--ff--secondary);
+
+    font-weight: bold;
+
+    text-decoration: none;
+
+    border-radius: 25px;
+
+    transition:
+        transform 0.25s ease,
+        opacity 0.25s ease;
+}
+
+.project-source-btn:hover {
+    transform: translateY(-3px);
+
+    opacity: 0.9;
+}
+
+/* =========================================
+   PROJECT PAGE LAYOUT FIX
+   KEEP THIS AT THE BOTTOM OF STYLE.CSS
+========================================= */
+
+.project-case-study {
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+    padding: 40px 30px 80px !important;
+    text-align: left !important;
+}
+
+
+/* Each section */
+
+.project-case-study .project-section {
+    margin: 0 0 70px 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+}
+
+
+/* Section headings */
+
+.project-case-study .project-section__title {
+    font-size: 2rem !important;
+    text-align: left !important;
+    margin: 0 0 25px 0 !important;
+    padding-bottom: 10px !important;
+
+    border-bottom: 2px solid var(--clr-accent);
+}
+
+
+/* Normal paragraphs */
+
+.project-case-study .project-section p {
+    max-width: 850px !important;
+    margin: 0 0 18px 0 !important;
+    line-height: 1.7 !important;
+    text-align: left !important;
+}
+
+
+/* Intro paragraph */
+
+.project-case-study .project-lead {
+    font-size: 1.15rem !important;
+    font-weight: 600 !important;
+}
+
+
+/* =========================================
+   KEY FEATURE CARDS
+========================================= */
+
+.project-case-study .project-feature-grid {
+    display: grid !important;
+    grid-template-columns: repeat(2, 1fr) !important;
+    gap: 22px !important;
+
+    width: 100% !important;
+
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+
+.project-case-study .project-feature-card {
+    display: block !important;
+
+    background: rgba(255, 255, 255, 0.07) !important;
+
+    border-left: 4px solid var(--clr-accent) !important;
+    border-radius: 12px !important;
+
+    padding: 25px !important;
+
+    margin: 0 !important;
+
+    text-align: left !important;
+
+    min-height: 150px !important;
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2) !important;
+}
+
+
+.project-case-study .project-feature-card h3 {
+    margin: 0 0 10px 0 !important;
+
+    color: var(--clr-accent) !important;
+
+    font-size: 1.15rem !important;
+
+    text-align: left !important;
+}
+
+
+.project-case-study .project-feature-card p {
+    margin: 0 !important;
+
+    font-size: 0.95rem !important;
+
+    line-height: 1.6 !important;
+
+    text-align: left !important;
+}
+
+
+/* =========================================
+   CHALLENGE CARDS
+========================================= */
+
+.project-case-study .project-challenge {
+    background: rgba(255, 255, 255, 0.06) !important;
+
+    padding: 25px !important;
+
+    margin: 0 0 20px 0 !important;
+
+    border-radius: 12px !important;
+
+    border-left: 4px solid var(--clr-accent) !important;
+
+    text-align: left !important;
+}
+
+
+.project-case-study .project-challenge h3 {
+    margin: 0 0 10px 0 !important;
+
+    color: var(--clr-accent) !important;
+
+    text-align: left !important;
+}
+
+
+/* =========================================
+   TECHNOLOGY CARDS
+========================================= */
+
+.project-case-study .project-tech-grid {
+    display: grid !important;
+
+    grid-template-columns: repeat(3, 1fr) !important;
+
+    gap: 20px !important;
+}
+
+
+.project-case-study .project-tech-card {
+    min-height: 120px !important;
+
+    display: flex !important;
+
+    flex-direction: column !important;
+
+    align-items: center !important;
+    justify-content: center !important;
+
+    gap: 10px !important;
+
+    background: rgba(255, 255, 255, 0.07) !important;
+
+    border-radius: 12px !important;
+
+    margin: 0 !important;
+
+    padding: 20px !important;
+}
+
+
+/* =========================================
+   DEMO
+========================================= */
+
+.project-case-study .project-demo {
+    text-align: left !important;
+}
+
+
+.project-case-study .brick-demo-wrapper {
+    max-width: 600px !important;
+
+    margin: 25px 0 0 0 !important;
+}
+
+
+.project-case-study .brick-demo-image {
+    display: block !important;
+
+    width: 100% !important;
+    height: auto !important;
+
+    border-radius: 15px !important;
+}
+
+
+/* =========================================
+   MOBILE
+========================================= */
+
+@media (max-width: 768px) {
+
+    .project-case-study {
+        padding: 30px 20px 60px !important;
+    }
+
+    .project-case-study .project-feature-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .project-case-study .project-tech-grid {
+        grid-template-columns: 1fr !important;
+    }
+
+    .project-case-study .project-section {
+        margin-bottom: 50px !important;
+    }
+
+}
+
 
 
 
