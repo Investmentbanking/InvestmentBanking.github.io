@@ -1,0 +1,809 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Ariana's Portfolio Website</title>
+
+    <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
+
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+          integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+          crossorigin="anonymous">
+
+    <link href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
+          rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css">
+
+    <script src="https://kit.fontawesome.com/73b5d51ce9.js"
+            crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        <a href="index.html">
+            <img src="img/ariana.gif" alt="">
+        </a>
+    </div>
+
+    <button class="nav-toggle"
+            aria-label="toggle navigation"
+            onclick="playMusic()">
+        <span class="hamburger"></span>
+    </button>
+
+    <nav class="nav">
+        <ul class="nav__list">
+
+            <li class="nav__item">
+                <a href="index.html" class="nav__link">Home</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="index.html#services" class="nav__link">My skills</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="index.html#about" class="nav__link">About me</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="index.html#certificates" class="nav__link">My Certificates</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="index.html#work" class="nav__link">My Projects</a>
+            </li>
+
+            <li class="nav__item">
+                <a href="contact-page.html" class="nav__link">Contact me</a>
+            </li>
+
+        </ul>
+    </nav>
+</header>
+
+
+<!-- INTRO -->
+
+<section class="intro">
+
+    <h1 class="section__title section__title--intro">
+        Property <strong>Viewer</strong>
+    </h1>
+
+    <p class="section__subtitle section__subtitle--intro">
+        JavaFX Property Marketplace &amp; Rental Analytics Platform
+    </p>
+
+    <img
+        src="img/propertyviewerpicture.png"
+        alt="Property Viewer application"
+        class="intro__img">
+
+</section>
+
+<!-- PROJECT CONTENT -->
+
+<div class="portfolio-item-individual project-case-study">
+
+
+    <!-- OVERVIEW -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Project Overview
+        </h2>
+
+        <p class="project-lead">
+            Property Viewer is a JavaFX desktop application for exploring,
+            analysing and booking temporary rental properties across London.
+        </p>
+
+        <p>
+            The application combines property discovery, interactive map
+            visualisation, booking functionality and rental analytics within
+            a multi-pane graphical interface.
+        </p>
+
+        <p>
+            Users can define a rental price range and booking dates before
+            exploring matching properties across London. The application then
+            updates its property data, map visualisations and statistics to
+            reflect the selected search criteria.
+        </p>
+
+        <p>
+            The system is built using Java, JavaFX, FXML and structured
+            Airbnb datasets loaded from CSV files.
+        </p>
+
+    </section>
+
+
+    <!-- KEY FEATURES -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Key Features
+        </h2>
+
+        <div class="project-feature-grid">
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    <i class="fa-solid fa-filter"></i>
+                    Property Filtering
+                </h3>
+
+                <p>
+                    Users can select minimum and maximum rental prices alongside
+                    start and end dates before exploring available properties.
+                    Invalid price ranges and booking dates are automatically
+                    detected.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    <i class="fa-solid fa-map-location-dot"></i>
+                    Interactive London Maps
+                </h3>
+
+                <p>
+                    Properties can be explored through geographical London
+                    borough visualisations, allowing users to navigate rental
+                    availability spatially.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    <i class="fa-solid fa-circle-nodes"></i>
+                    Dual Map Views
+                </h3>
+
+                <p>
+                    The application supports both geographical and bubble-style
+                    map visualisations. Users can switch dynamically between
+                    the two representations.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    <i class="fa-solid fa-house"></i>
+                    Property Inspection
+                </h3>
+
+                <p>
+                    Users can inspect property listings directly from the map
+                    interface and view relevant information about available
+                    rentals.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    <i class="fa-solid fa-calendar-check"></i>
+                    Property Booking
+                </h3>
+
+                <p>
+                    Authenticated users can select available properties,
+                    review booking details and reserve a property for their
+                    selected stay.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    <i class="fa-solid fa-chart-column"></i>
+                    Rental Analytics
+                </h3>
+
+                <p>
+                    The application generates multiple categories of statistics
+                    covering pricing, reviews, borough information, property
+                    availability and amenities.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- TECHNOLOGIES -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Technologies Used
+        </h2>
+
+        <div class="project-tech-grid">
+
+
+            <div class="project-tech-card">
+
+                <div class="project-tech-icon">
+                    <i class="fa-brands fa-java"></i>
+                </div>
+
+                <strong>Java</strong>
+
+            </div>
+
+
+            <div class="project-tech-card">
+
+                <div class="project-tech-icon">
+                    <i class="fa-solid fa-desktop"></i>
+                </div>
+
+                <strong>JavaFX</strong>
+
+            </div>
+
+
+            <div class="project-tech-card">
+
+                <div class="project-tech-icon">
+                    <i class="fa-solid fa-file-code"></i>
+                </div>
+
+                <strong>FXML</strong>
+
+            </div>
+
+
+            <div class="project-tech-card">
+
+                <div class="project-tech-icon">
+                    <i class="fa-solid fa-file-csv"></i>
+                </div>
+
+                <strong>OpenCSV</strong>
+
+            </div>
+
+
+            <div class="project-tech-card">
+
+                <div class="project-tech-icon">
+                    <i class="fa-solid fa-gears"></i>
+                </div>
+
+                <strong>Gradle</strong>
+
+            </div>
+
+
+            <div class="project-tech-card">
+
+                <div class="project-tech-icon">
+                    <i class="fa-solid fa-database"></i>
+                </div>
+
+                <strong>CSV Data Processing</strong>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- ARCHITECTURE -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Application Architecture
+        </h2>
+
+        <p>
+            Property Viewer separates major areas of the application into
+            dedicated JavaFX controllers and interface components.
+        </p>
+
+        <p>
+            The main interface uses a central pane which changes depending on
+            the current stage of the application. This allows users to move
+            between the welcome interface, map visualisation, statistics and
+            booking screens while keeping the surrounding navigation
+            consistent.
+        </p>
+
+        <p>
+            FXML files define the structure of the graphical interfaces while
+            Java controller classes manage user interaction, validation,
+            navigation and data updates.
+        </p>
+
+    </section>
+
+
+    <!-- SEARCH -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Property Search &amp; Filtering
+        </h2>
+
+        <p>
+            Before navigating the rental marketplace, users select a minimum
+            price, maximum price, start date and end date.
+        </p>
+
+        <p>
+            The application validates the selected information before enabling
+            navigation. Invalid price ranges, reversed booking dates and dates
+            that are not valid for future bookings generate appropriate error
+            messages.
+        </p>
+
+        <p>
+            Once a valid price range is confirmed, the property statistics and
+            map visualisations are refreshed using the newly selected range.
+        </p>
+
+    </section>
+
+
+    <!-- MAPS -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Interactive Map Visualisation
+        </h2>
+
+        <p>
+            Property Viewer includes two different approaches to visualising
+            rental information across London.
+        </p>
+
+        <div class="project-feature-grid">
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    Geographical View
+                </h3>
+
+                <p>
+                    Displays London boroughs using a geographical map structure,
+                    allowing property data to be explored according to physical
+                    location.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    Bubble View
+                </h3>
+
+                <p>
+                    Provides an alternative circle-based representation of the
+                    property data and can dynamically reposition its visual
+                    elements.
+                </p>
+
+            </div>
+
+
+        </div>
+
+        <p>
+            Colour gradients are used within the map interface to communicate
+            differences across the displayed data. Both map implementations
+            reload when the selected rental price range changes.
+        </p>
+
+    </section>
+
+
+    <!-- BOOKING -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Booking Workflow
+        </h2>
+
+        <p>
+            Properties selected for booking are displayed inside an observable
+            JavaFX table.
+        </p>
+
+        <p>
+            Selecting a listing displays information including the property
+            name, number of beds, bathrooms, area, selected booking dates,
+            property image and the total number of nights.
+        </p>
+
+        <p>
+            The total cost of the stay is calculated dynamically using the
+            selected property's nightly price and the number of nights in the
+            booking period.
+        </p>
+
+        <p>
+            Booking actions are tied to the current user account. Users without
+            an account are prevented from reserving properties, while existing
+            bookings are checked before a new reservation is accepted.
+        </p>
+
+    </section>
+
+
+    <!-- ANALYTICS -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Property Analytics
+        </h2>
+
+        <p>
+            The application includes a dedicated statistics interface that
+            analyses the currently filtered property datasets.
+        </p>
+
+        <p>
+            Users can switch between several categories of rental analytics.
+        </p>
+
+        <div class="project-feature-grid">
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    General Statistics
+                </h3>
+
+                <p>
+                    Includes information such as average reviews, total
+                    available properties, property types, availability and
+                    the most and least expensive London boroughs.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    Review Statistics
+                </h3>
+
+                <p>
+                    Analyses review scores across areas such as cleanliness,
+                    communication, check-in, location and overall rating.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    Borough &amp; Listing Statistics
+                </h3>
+
+                <p>
+                    Produces location-focused insights such as the borough with
+                    the most properties, Central London listing totals and
+                    property information across boroughs.
+                </p>
+
+            </div>
+
+
+            <div class="project-feature-card">
+
+                <h3>
+                    Amenities Statistics
+                </h3>
+
+                <p>
+                    Analyses property characteristics including bathrooms,
+                    bedrooms, beds, gardens, ovens and total amenity counts.
+                </p>
+
+            </div>
+
+
+        </div>
+
+    </section>
+
+
+    <!-- DATA PROCESSING -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Data Processing
+        </h2>
+
+        <p>
+            Property data is loaded from multiple London Airbnb CSV datasets
+            using OpenCSV.
+        </p>
+
+        <p>
+            Each CSV row is transformed into a structured Java listing object
+            before being used throughout the application.
+        </p>
+
+        <p>
+            Raw values are converted into appropriate Java data types,
+            including prices, coordinates, URLs, review scores, availability,
+            bedroom and bathroom counts and lists of property amenities.
+        </p>
+
+        <p>
+            Separate listing models are used for the different dataset formats,
+            allowing the application to work with both older and newer rental
+            data.
+        </p>
+
+    </section>
+
+
+    <!-- DESIGN DECISIONS -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Challenges &amp; Design Decisions
+        </h2>
+
+
+        <div class="project-challenge">
+
+            <h3>
+                Keeping Views Synchronised
+            </h3>
+
+            <p>
+                Changes to the selected price range affect multiple parts of
+                the application. Map views and statistics therefore need to
+                reload against the same filtered property data to keep the
+                interface consistent.
+            </p>
+
+        </div>
+
+
+        <div class="project-challenge">
+
+            <h3>
+                Handling Invalid User Input
+            </h3>
+
+            <p>
+                Date selections, property prices and booking actions require
+                validation before the user can continue. The application uses
+                validation logic and JavaFX alerts to communicate problems
+                before invalid actions are processed.
+            </p>
+
+        </div>
+
+
+        <div class="project-challenge">
+
+            <h3>
+                Transforming Raw Dataset Values
+            </h3>
+
+            <p>
+                Airbnb CSV data contains several different data formats.
+                Dedicated conversion methods transform raw strings into
+                numerical values, money values, URLs and amenity collections
+                before creating usable Java objects.
+            </p>
+
+        </div>
+
+
+        <div class="project-challenge">
+
+            <h3>
+                Managing Multiple Application Screens
+            </h3>
+
+            <p>
+                The application contains several distinct interfaces for
+                searching, mapping, analytics and booking. JavaFX controllers,
+                FXML files and pane switching are used to keep these areas
+                separated while still supporting navigation between them.
+            </p>
+
+        </div>
+
+
+    </section>
+
+
+    <!-- WHAT IT DEMONSTRATES -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            What This Project Demonstrates
+        </h2>
+
+        <p>
+            Property Viewer demonstrates my ability to build a larger
+            object-oriented Java desktop application that combines graphical
+            interfaces, data processing, user interaction and application
+            logic.
+        </p>
+
+        <p>
+            The project also demonstrates experience working with JavaFX,
+            FXML-based interfaces, CSV data processing, input validation,
+            filtering, dynamic visualisation, analytics and multi-screen
+            application design.
+        </p>
+
+    </section>
+
+
+    <!-- =========================
+        PROJECT DEMO
+    ========================== -->
+
+    <section class="project-section project-demo">
+
+        <h2 class="project-section__title">
+            Project Demo
+        </h2>
+
+        <p class="project-demo__intro">
+            A demonstration of Property Viewer, showing the JavaFX interface,
+            property exploration features, interactive visualisations and
+            rental functionality.
+        </p>
+
+        <div class="project-video-wrapper">
+
+            <video
+                controls
+                width="100%">
+
+                <source
+                    src="media/propertyviewervideo.mp4"
+                    type="video/mp4">
+
+                Your browser does not support the video tag.
+
+            </video>
+
+        </div>
+
+    </section>
+
+    <!-- SOURCE CODE -->
+
+    <section class="project-section">
+
+        <h2 class="project-section__title">
+            Source Code
+        </h2>
+
+        <p>
+            The source code for Property Viewer is available on GitHub.
+        </p>
+
+        <a
+            href="https://github.com/Investmentbanking/Property-Viewer-"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="project-source-btn">
+
+            <i class="fa-brands fa-github"></i>
+            View Source Code
+
+        </a>
+
+    </section>
+
+
+</div>
+
+
+<!-- FOOTER -->
+
+<footer class="footer">
+
+    <a href="mailto:a_d20102010@hotmail.com"
+       class="footer__link"
+       style="color:white;">
+        a_d20102010@hotmail.com
+    </a>
+
+    <ul class="social-list">
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               style="color:white;"
+               href="https://github.com/Investmentbanking">
+                <i class="fa-brands fa-github"></i>
+            </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               style="color:white;"
+               href="https://discordapp.com/users/826267639278075935/">
+                <i class="fa-brands fa-discord"></i>
+            </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               style="color:white;"
+               href="https://twitter.com">
+                <i class="fa-brands fa-twitter"></i>
+            </a>
+        </li>
+
+        <li class="social-list__item">
+            <a class="social-list__link"
+               style="color:white;"
+               href="https://stackoverflow.com/">
+                <i class="fa-brands fa-stack-overflow"></i>
+            </a>
+        </li>
+
+    </ul>
+
+</footer>
+
+
+<script src="js/index.js"></script>
+
+</body>
+</html>

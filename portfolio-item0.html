@@ -1,446 +1,1330 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-        <title>Ariana's Portfolio Website</title>
+<head>
 
-        <link rel="shortcut icon" type="img/png" href="img/favicon.png">
+    <meta charset="UTF-8">
 
-        <link rel="stylesheet" 
+    <meta
+        name="viewport"
+        content="width=device-width, initial-scale=1.0">
+
+    <title>Ariana's Portfolio Website</title>
+
+    <link
+        rel="shortcut icon"
+        type="img/png"
+        href="img/favicon.png">
+
+    <link
+        rel="stylesheet"
         href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css">
 
-        <link rel="stylesheet" 
-        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" 
-        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" 
-        crossorigin="anonymous" />  
+    <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css"
+        integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc="
+        crossorigin="anonymous">
 
-        <link 
+    <link
         href="https://fonts.googleapis.com/css?family=Source+Code+Pro:400,900|Source+Sans+Pro:300,900&display=swap"
         rel="stylesheet">
 
-        <link rel="stylesheet" href="css/style.css">
+    <link
+        rel="stylesheet"
+        href="css/style.css">
 
-        <script 
-        src="https://kit.fontawesome.com/73b5d51ce9.js" 
+    <script
+        src="https://kit.fontawesome.com/73b5d51ce9.js"
         crossorigin="anonymous">
-        </script>
-    </head>
+    </script>
+
+</head>
 
 
-    <body>
-
-        <!-- HEADER -->
-        <header>
-
-            <div class="logo">
-                <a href="index.html">
-                    <img src="img/ariana.gif" alt="">
-                </a>
-            </div>
-
-            <button 
-                class="nav-toggle" 
-                aria-label="toggle navigation" 
-                onclick="playMusic()">
-
-                <span class="hamburger"></span>
-            </button>
+<body>
 
 
-            <nav class="nav">
+    <!-- =========================
+         HEADER
+    ========================== -->
 
-                <ul class="nav__list">
+    <header>
 
-                    <li class="nav__item">
-                        <a href="index.html" class="nav__link">
-                            Home
-                        </a>
-                    </li>
+        <div class="logo">
 
-                    <li class="nav__item">
-                        <a href="index.html#services" class="nav__link">
-                            My skills
-                        </a>
-                    </li>
+            <a href="index.html">
 
-                    <li class="nav__item">
-                        <a href="index.html#about" class="nav__link">
-                            About me
-                        </a>
-                    </li>
+                <img
+                    src="img/ariana.gif"
+                    alt="">
 
-                    <li class="nav__item">
-                        <a href="index.html#certificates" class="nav__link">
-                            My Certificates
-                        </a>
-                    </li>
+            </a>
 
-                    <li class="nav__item">
-                        <a href="index.html#work" class="nav__link">
-                            My Projects
-                        </a>
-                    </li>
-
-                    <li class="nav__item">
-                        <a href="contact-page.html" class="nav__link">
-                            Contact me
-                        </a>
-                    </li>
-
-                </ul>
-
-            </nav>
-
-        </header>
+        </div>
 
 
+        <button
+            class="nav-toggle"
+            aria-label="toggle navigation"
+            onclick="playMusic()">
 
-        <!-- INTRODUCTION -->
-        <section class="intro">
+            <span class="hamburger"></span>
 
-            <h1 class="section__title section__title--intro">
-                Final Year <strong>Dissertation</strong>
-            </h1>
+        </button>
 
-            <p class="section__subtitle section__subtitle--intro">
-                created using React & TypeScript
+
+        <nav class="nav">
+
+            <ul class="nav__list">
+
+                <li class="nav__item">
+                    <a href="index.html" class="nav__link">
+                        Home
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#services" class="nav__link">
+                        My skills
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#about" class="nav__link">
+                        About me
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#certificates" class="nav__link">
+                        My Certificates
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="index.html#work" class="nav__link">
+                        My Projects
+                    </a>
+                </li>
+
+                <li class="nav__item">
+                    <a href="contact-page.html" class="nav__link">
+                        Contact me
+                    </a>
+                </li>
+
+            </ul>
+
+        </nav>
+
+    </header>
+
+
+
+    <!-- =========================
+         INTRODUCTION
+    ========================== -->
+
+    <section class="intro">
+
+        <h1 class="section__title section__title--intro">
+
+            Transparent <strong>Message Control</strong>
+
+        </h1>
+
+
+        <p class="section__subtitle section__subtitle--intro">
+
+            React & TypeScript Messaging Prototype
+
+        </p>
+
+
+        <img
+            src="img/FrontPageChatPreviews.png"
+            alt="Private messaging prototype exploring pre-send and post-send message control"
+            class="intro__img">
+
+    </section>
+
+
+
+    <!-- =========================
+         PROJECT CASE STUDY
+    ========================== -->
+
+    <div class="portfolio-item-individual project-case-study">
+
+
+        <!-- =========================
+             PROJECT OVERVIEW
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Project Overview
+            </h2>
+
+
+            <p class="project-lead">
+
+                This dissertation investigates how private one-to-one messaging
+                platforms can provide users with greater control over messages
+                both before and after transmission.
+
             </p>
 
-            <img 
-                src="img/FrontPageChatPreviews.png" 
-                alt="Private messaging dissertation prototype" 
-                class="intro__img">
+
+            <p>
+
+                I designed and developed a functional React messaging prototype
+                centred around two message-control mechanisms: a temporary
+                pre-send delay that gives users an opportunity to undo a message
+                before delivery, and a more transparent post-send revocation
+                experience for withdrawing content after it has been sent.
+
+            </p>
+
+
+            <p>
+
+                The project combines software development with requirements
+                gathering, iterative prototyping and user evaluation to explore
+                how message-control mechanisms can balance user agency,
+                transparency, trust and usability.
+
+            </p>
 
         </section>
 
 
 
-        <!-- PROJECT INFORMATION -->
-        <div class="portfolio-item-individual">
+        <!-- =========================
+             THE PROBLEM
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                The Problem
+            </h2>
 
 
-            <!-- OBJECTIVE -->
-            <h3>
-                <b>Objective</b>
-            </h3>
+            <p class="project-lead">
 
-            <p>
-                This final year dissertation explores how private one-to-one 
-                messaging platforms can provide users with greater control 
-                before and after sending a message.
-            </p>
+                Sending a digital message is often effectively instantaneous,
+                while meaningful control is usually offered only after
+                transmission has already occurred.
 
-            <p>
-                Existing messaging applications usually deliver messages 
-                immediately and only provide users with control after a message 
-                has already been sent. Features such as "Delete for Everyone" 
-                can also create uncertainty because a message may have already 
-                been viewed, captured in a notification, or screenshotted.
-            </p>
-
-            <p>
-                To investigate a better approach, I designed and developed a 
-                functional private messaging prototype that introduces both 
-                pre-send and post-send message control. The aim was to improve 
-                user agency, transparency and confidence while maintaining a 
-                simple and familiar messaging experience.
             </p>
 
 
-            <br><br>
-
-
-            <!-- FEATURES -->
-            <h3>
-                <b>Features</b>
-            </h3>
-
-            <ul>
-
-                <li>
-                    <b>Configurable Pre-Send Undo Window:</b>
-                    Messages are temporarily delayed before delivery, giving 
-                    the sender an opportunity to cancel a message if they 
-                    immediately regret sending it. Users can choose between 
-                    different undo durations.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>Visible Sending Countdown:</b>
-                    A countdown clearly shows the user how much time remains 
-                    before the message is delivered, providing immediate and 
-                    understandable feedback.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>Global and Per-Chat Settings:</b>
-                    Users can configure a default undo window across the 
-                    application while also overriding the setting for 
-                    individual conversations.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>Transparent Message Deletion:</b>
-                    The prototype provides clear options for removing a message 
-                    from the sender's own view or attempting to remove it from 
-                    both participants' chat histories.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>Deletion Limitation Warnings:</b>
-                    Instead of implying that deletion guarantees complete 
-                    removal, the interface clearly communicates limitations 
-                    such as the possibility that a recipient may already have 
-                    viewed or captured the message.
-                </li>
-
-                <br>
-
-                <li>
-                    <b>Message Status Feedback:</b>
-                    Visual indicators communicate important message states, 
-                    helping users understand whether a message is being sent, 
-                    delivered, seen, cancelled or removed.
-                </li>
-
-            </ul>
-
-
-            <br><br>
-
-
-            <!-- TECHNOLOGIES -->
-            <h3>
-                <b>Technologies Used</b>
-            </h3>
-
-            <ul>
-
-                <li>
-                    <b>React:</b>
-                    Used to build the component-based messaging interface and 
-                    dynamically update the interface as message states change.
-                </li>
-
-                <li>
-                    <b>TypeScript:</b>
-                    Used to create strongly typed models for messages, contacts 
-                    and application state, improving maintainability and 
-                    reliability.
-                </li>
-
-                <li>
-                    <b>CSS:</b>
-                    Modular CSS files were used to create the visual design, 
-                    message states, animations, modal windows and undo countdown.
-                </li>
-
-                <li>
-                    <b>GitHub:</b>
-                    Used for version control, incremental development and 
-                    tracking changes throughout the project.
-                </li>
-
-            </ul>
-
-
-            <br><br>
-
-
-            <!-- DEVELOPMENT -->
-            <h3>
-                <b>Development</b>
-            </h3>
-
             <p>
-                The application was developed using a modular, component-based 
-                architecture. Individual React components are responsible for 
-                different areas of the messaging interface, including the chat 
-                list, message display, message input, message bubbles and modal 
-                windows.
-            </p>
 
-            <p>
-                The application's messaging logic is separated from the user 
-                interface using a custom React hook. This manages conversations, 
-                message states, sending behaviour, undo functionality and 
-                message removal while keeping the visual components easier to 
-                maintain.
-            </p>
+                Post-send deletion can also create uncertainty. Removing a
+                message from a conversation does not necessarily mean its
+                contents were never seen, displayed in a notification or
+                otherwise captured.
 
-            <p>
-                The prototype operates on the client side using local state and 
-                timed transitions. This allowed the project to focus specifically 
-                on testing the interaction design and user experience of the 
-                proposed messaging controls.
             </p>
 
 
-            <br><br>
-
-
-            <!-- USER-CENTRED DESIGN -->
-            <h3>
-                <b>User-Centred Design & Evaluation</b>
-            </h3>
-
             <p>
-                The system was developed through an iterative user-centred design 
-                process. Research began with a literature review and 
-                semi-structured interviews to understand how users experience 
-                message regret, deletion and loss of control after sending.
+
+                This project therefore explored whether message control could
+                be improved by considering the entire message lifecycle:
+                providing an opportunity to reconsider a message before
+                delivery while also communicating the limitations of
+                post-send deletion more transparently.
+
             </p>
 
-            <p>
-                These findings were used to create and progressively refine 
-                low-to-mid fidelity, high-fidelity and finally functional 
-                prototypes. User testing was carried out across four iterative 
-                research rounds, with feedback from each stage influencing the 
-                following version of the design.
+        </section>
+
+
+
+        <!-- =========================
+             CORE FEATURES
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Core Features
+            </h2>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Pre-Send Undo Window
+                    </h3>
+
+                    <p>
+
+                        Messages can enter a temporary pre-delivery state,
+                        giving the sender a short opportunity to cancel
+                        transmission before the message is delivered.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Visible Sending Countdown
+                    </h3>
+
+                    <p>
+
+                        A visible countdown communicates how long remains
+                        before delivery, making the temporary undo period
+                        understandable rather than hiding the delay.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Configurable Undo Settings
+                    </h3>
+
+                    <p>
+
+                        Users can configure their preferred undo duration,
+                        allowing the level of pre-send friction to be adjusted
+                        rather than forcing a single behaviour.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Global & Per-Chat Controls
+                    </h3>
+
+                    <p>
+
+                        A default undo preference can be configured globally
+                        while individual conversations can override that
+                        setting when different behaviour is preferred.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Transparent Message Deletion
+                    </h3>
+
+                    <p>
+
+                        Post-send controls distinguish between removing content
+                        from the sender's own interface and attempting to
+                        withdraw it from both participants' conversation
+                        histories.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Message Status Feedback
+                    </h3>
+
+                    <p>
+
+                        Visual feedback communicates message lifecycle states
+                        such as sending, delivered, seen, cancelled and
+                        removed.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             TECHNOLOGIES
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Technologies Used
+            </h2>
+
+
+            <div class="project-tech-grid">
+
+
+                <div class="project-tech-card">
+
+                    <i class="fab fa-react project-tech-icon"></i>
+
+                    <span>
+                        React
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fas fa-code project-tech-icon"></i>
+
+                    <span>
+                        TypeScript
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fab fa-css3-alt project-tech-icon"></i>
+
+                    <span>
+                        CSS
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fab fa-github project-tech-icon"></i>
+
+                    <span>
+                        GitHub
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fas fa-cubes project-tech-icon"></i>
+
+                    <span>
+                        Component Architecture
+                    </span>
+
+                </div>
+
+
+
+                <div class="project-tech-card">
+
+                    <i class="fas fa-sync-alt project-tech-icon"></i>
+
+                    <span>
+                        React State
+                    </span>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             SYSTEM ARCHITECTURE
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                System Architecture
+            </h2>
+
+
+            <p class="project-lead">
+
+                The prototype uses a modular client-side React architecture
+                with application logic separated from interface components.
+
             </p>
 
 
-            <br><br>
+            <div class="project-feature-grid">
 
 
-            <!-- RESULTS -->
-            <h3>
-                <b>Results</b>
-            </h3>
+                <div class="project-feature-card">
+
+                    <h3>
+                        Centralised Message State
+                    </h3>
+
+                    <p>
+
+                        A custom React hook, <code>useChatState</code>,
+                        centralises conversations, message states, sending
+                        behaviour, undo functionality, deletion logic and
+                        user interactions.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Modular Components
+                    </h3>
+
+                    <p>
+
+                        The interface is divided into focused components
+                        including <code>ChatList</code>,
+                        <code>ChatMessages</code>,
+                        <code>MessageBubble</code>,
+                        <code>MessageInput</code> and
+                        <code>ChatModals</code>.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Typed Data Models
+                    </h3>
+
+                    <p>
+
+                        Shared TypeScript definitions provide consistent
+                        structures for messages, contacts and application
+                        state across components and tests.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Unidirectional Data Flow
+                    </h3>
+
+                    <p>
+
+                        State and event handlers are passed through component
+                        props, keeping data flow predictable and maintaining
+                        clear boundaries between interface and application
+                        behaviour.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             MESSAGE LIFECYCLE
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Message Lifecycle
+            </h2>
+
 
             <p>
-                Evaluation of the final prototype showed that users responded 
-                positively to both the pre-send and post-send control mechanisms.
-                Participants particularly valued honest communication about the 
-                limitations of message deletion rather than being given false 
-                reassurance that deleted content was guaranteed to disappear.
+
+                Messages are represented as structured objects containing
+                information including their content, timestamp, sender identity
+                and current status.
+
             </p>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        01 — Compose
+                    </h3>
+
+                    <p>
+
+                        The sender writes a message through the messaging
+                        interface and initiates the send action.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        02 — Pending
+                    </h3>
+
+                    <p>
+
+                        When an undo window is enabled, the message temporarily
+                        enters a pre-delivery state and a countdown is shown.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        03 — Undo or Deliver
+                    </h3>
+
+                    <p>
+
+                        The sender can cancel during the temporary window.
+                        Otherwise, the timed transition completes and the
+                        message moves to its delivered state.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        04 — Post-Send Control
+                    </h3>
+
+                    <p>
+
+                        Once sent, deletion controls allow the user to manage
+                        the message while receiving clearer information about
+                        what deletion can and cannot guarantee.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             RESEARCH QUESTIONS
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Research Focus
+            </h2>
+
+
+            <p class="project-lead">
+
+                The design and implementation were guided by four central
+                questions about user control in private messaging.
+
+            </p>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        End-to-End Message Control
+                    </h3>
+
+                    <p>
+
+                        How can messaging systems better support user control
+                        across both the pre-send and post-send stages?
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Trustworthy Revocation
+                    </h3>
+
+                    <p>
+
+                        How can post-send message revocation provide clearer,
+                        more reliable and more trustworthy user control?
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Pre-Send Reconsideration
+                    </h3>
+
+                    <p>
+
+                        Can a short undo window meaningfully support users who
+                        want to reconsider a message immediately after pressing
+                        send?
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        User Perception
+                    </h3>
+
+                    <p>
+
+                        How do users perceive and compare deletion,
+                        transparency features and pre-send undo mechanisms?
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             DESIGN PROCESS
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Research & Design Process
+            </h2>
+
 
             <p>
-                The configurable pre-send undo mechanism also increased users' 
-                perceived sense of agency by providing an opportunity to 
-                reconsider a message before it became fully delivered.
+
+                The system was developed through an iterative,
+                user-centred process. Initial research examined existing
+                work around consent revocation, message persistence,
+                transparency and friction within digital communication.
+
             </p>
+
 
             <p>
-                By the final round of testing, the majority of usability issues 
-                identified during earlier prototypes had been resolved, with 
-                participants demonstrating a strong understanding of the 
-                system's behaviour and responding positively to its feedback 
-                mechanisms.
+
+                Semi-structured interviews were then used to explore user
+                experiences of message regret, deletion and perceived loss
+                of control after sending.
+
             </p>
 
 
-            <br><br>
+            <p>
+
+                Findings from the research informed successive prototype
+                designs. Rather than developing the final interface
+                immediately, concepts were progressively evaluated and
+                refined before being implemented as a functional React
+                prototype.
+
+            </p>
+
+        </section>
 
 
-            <!-- PROJECT IMAGE / GIF -->
-            <figure>
 
-                <video controls>
-                    <source src="media/chatprototypevideo.mp4" type="video/mp4">
+        <!-- =========================
+             ITERATIVE EVALUATION
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Iterative Evaluation
+            </h2>
+
+
+            <p class="project-lead">
+
+                The project used four rounds of research and evaluation,
+                allowing findings from each stage to influence the next
+                iteration of the design.
+
+            </p>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Round 1 — Requirements
+                    </h3>
+
+                    <p>
+
+                        Initial research investigated existing messaging
+                        behaviours, user expectations and limitations in
+                        sender control to establish design requirements.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Round 2 — Early Prototype
+                    </h3>
+
+                    <p>
+
+                        Early interaction concepts were evaluated to identify
+                        usability problems and determine how users interpreted
+                        the proposed message-control mechanisms.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Round 3 — High Fidelity
+                    </h3>
+
+                    <p>
+
+                        A more refined interface was evaluated to examine the
+                        clarity of the interaction flow, controls and feedback
+                        before functional implementation.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Round 4 — Functional Prototype
+                    </h3>
+
+                    <p>
+
+                        The implemented React prototype was evaluated to assess
+                        the final pre-send and post-send mechanisms in an
+                        interactive messaging environment.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             ENGINEERING DECISIONS
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Engineering & Design Decisions
+            </h2>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Separating Logic from the Interface
+                </h3>
+
+                <p>
+
+                    Messaging behaviour involves several interconnected states.
+                    Centralising this logic inside a custom React hook prevented
+                    message lifecycle behaviour from becoming tightly coupled
+                    to individual visual components.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Modelling Pre-Send Behaviour
+                </h3>
+
+                <p>
+
+                    The undo mechanism required messages to exist in a
+                    temporary state between pressing send and final delivery.
+                    Timed state transitions were used to model this lifecycle
+                    while keeping the countdown and cancellation controls
+                    synchronised with the underlying message state.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Balancing Friction and Control
+                </h3>
+
+                <p>
+
+                    Increasing the time before delivery can provide more
+                    opportunity for reconsideration, but excessive delay can
+                    interfere with the speed users expect from messaging.
+                    Configurable undo durations were therefore explored rather
+                    than enforcing one fixed delay.
+
+                </p>
+
+            </div>
+
+
+
+            <div class="project-challenge">
+
+                <h3>
+                    Designing Honest Deletion Feedback
+                </h3>
+
+                <p>
+
+                    Post-send deletion was designed to avoid implying that
+                    digital content can always be completely recovered or
+                    erased. The interface instead communicates limitations
+                    and distinguishes between different removal actions.
+
+                </p>
+
+            </div>
+
+
+        </section>
+
+
+
+        <!-- =========================
+             IMPLEMENTATION APPROACH
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Implementation Approach
+            </h2>
+
+
+            <p>
+
+                React was used for the dynamic interface and state-driven
+                rendering required to represent changes throughout a
+                message's lifecycle. TypeScript provided strongly typed
+                structures for application data and shared state.
+
+            </p>
+
+
+            <p>
+
+                The prototype operates client-side using local application
+                state and timed transitions rather than persistent storage
+                or real backend message delivery. This allowed the
+                implementation to concentrate specifically on evaluating
+                the proposed interaction behaviours.
+
+            </p>
+
+
+            <p>
+
+                Modular CSS separates interface layout, message presentation,
+                modal behaviour and visual message states, while GitHub was
+                used for version control and incremental development.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             KEY FINDINGS
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Key Findings
+            </h2>
+
+
+            <div class="project-feature-grid">
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Deletion Can Create Uncertainty
+                    </h3>
+
+                    <p>
+
+                        Users experienced uncertainty around what message
+                        deletion actually does and whether removed content
+                        can truly be considered gone.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Pre-Send Undo Increased Agency
+                    </h3>
+
+                    <p>
+
+                        The temporary undo mechanism was consistently valued
+                        as a meaningful opportunity to reconsider a message
+                        before delivery.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Undo Complements Deletion
+                    </h3>
+
+                    <p>
+
+                        Pre-send control was not treated as a replacement for
+                        post-send revocation. The findings instead supported
+                        providing control at multiple stages of the message
+                        lifecycle.
+
+                    </p>
+
+                </div>
+
+
+
+                <div class="project-feature-card">
+
+                    <h3>
+                        Transparency Builds Confidence
+                    </h3>
+
+                    <p>
+
+                        Clear feedback about system behaviour and deletion
+                        limitations improved users' understanding, trust and
+                        confidence in message-control features.
+
+                    </p>
+
+                </div>
+
+
+            </div>
+
+        </section>
+
+
+
+        <!-- =========================
+             BROADER CONSIDERATIONS
+        ========================== -->
+
+        <section class="project-section">
+
+            <h2 class="project-section__title">
+                Broader Considerations
+            </h2>
+
+
+            <p>
+
+                Message deletion and revocation involve more than interface
+                design alone. The project also considered the legal, social
+                and ethical implications of user control, data protection,
+                system transparency and trust within private digital
+                communication.
+
+            </p>
+
+
+            <p>
+
+                These considerations reinforced the importance of avoiding
+                misleading guarantees and designing controls that communicate
+                clearly what the system is capable of doing.
+
+            </p>
+
+        </section>
+
+
+
+        <!-- =========================
+             PROJECT DEMO
+        ========================== -->
+
+        <section class="project-section project-demo">
+
+            <h2 class="project-section__title">
+                Project Demo
+            </h2>
+
+
+            <p class="project-demo__intro">
+
+                A demonstration of the functional React prototype,
+                including the messaging interface and pre-send and
+                post-send message-control mechanisms.
+
+            </p>
+
+
+            <div class="project-video-wrapper">
+
+                <video
+                    controls
+                    width="100%">
+
+                    <source
+                        src="media/chatprototypevideo.mp4"
+                        type="video/mp4">
+
                     Your browser does not support the video tag.
+
                 </video>
 
-                <!-- <img 
-                    src="img/FrontPageChatPreviews.png" 
-                    class="brick-img" 
-                    width="500px"
-                    alt="Demonstration of dissertation messaging prototype"> -->
+            </div>
 
-            </figure>
+        </section>
 
 
-        </div>
+        <!-- =========================
+            SOURCE CODE
+        ========================== -->
 
+        <section class="project-section">
 
+            <h2 class="project-section__title">
+                Source Code
+            </h2>
 
-        <!-- FOOTER -->
-        <footer class="footer">
+            <p>
+                The source code for the React and TypeScript messaging prototype
+                is available on GitHub.
+            </p>
 
-            <a 
-                href="mailto:a_d20102010@hotmail.com" 
-                class="footer__link" 
-                style="color:white;">
+            <a
+                href="https://github.com/Investmentbanking/chat-prototype"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-source-btn">
 
-                a_d20102010@hotmail.com
+                <i class="fa-brands fa-github"></i>
+                View Source Code
 
             </a>
 
-
-            <ul class="social-list">
-
-                <li class="social-list__item">
-
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;" 
-                        href="https://github.com/Investmentbanking">
-
-                        <i class="fa-brands fa-github"></i>
-
-                    </a>
-
-                </li>
+        </section>
 
 
-                <li class="social-list__item">
-
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;"
-                        href="https://discordapp.com/users/826267639278075935/">
-
-                        <i class="fa-brands fa-discord"></i>
-
-                    </a>
-
-                </li>
+    </div>
 
 
-                <li class="social-list__item">
 
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;" 
-                        href="https://twitter.com">
+    <!-- =========================
+         FOOTER
+    ========================== -->
 
-                        <i class="fa-brands fa-twitter"></i>
+    <footer class="footer">
 
-                    </a>
+        <a
+            href="mailto:a_d20102010@hotmail.com"
+            class="footer__link"
+            style="color:white;">
 
-                </li>
+            a_d20102010@hotmail.com
 
-
-                <li class="social-list__item">
-
-                    <a 
-                        class="social-list__link" 
-                        style="color:white;" 
-                        href="https://stackoverflow.com/">
-
-                        <i class="fa-brands fa-stack-overflow"></i>
-
-                    </a>
-
-                </li>
-
-            </ul>
-
-        </footer>
+        </a>
 
 
-        <script src="js/index.js"></script>
+        <ul class="social-list">
 
-    </body>
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://github.com/Investmentbanking">
+
+                    <i class="fa-brands fa-github"></i>
+
+                </a>
+
+            </li>
+
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://discordapp.com/users/826267639278075935/">
+
+                    <i class="fa-brands fa-discord"></i>
+
+                </a>
+
+            </li>
+
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://twitter.com">
+
+                    <i class="fa-brands fa-twitter"></i>
+
+                </a>
+
+            </li>
+
+
+            <li class="social-list__item">
+
+                <a
+                    class="social-list__link"
+                    style="color:white;"
+                    href="https://stackoverflow.com/">
+
+                    <i class="fa-brands fa-stack-overflow"></i>
+
+                </a>
+
+            </li>
+
+
+        </ul>
+
+    </footer>
+
+
+    <script src="js/index.js"></script>
+
+
+</body>
+
 </html>
